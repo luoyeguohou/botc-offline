@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <controller name="direction" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n13_ivx2" name="btnDirection" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="844,834" size="969,133">
+      <gearText controller="direction" pages="0,1" values="Direction Clockwise|Direction Counterclockwise"/>
+      <Button title="Direction Clockwise" titleFontSize="77"/>
+    </component>
+    <image id="n19_jfoi" name="n19" src="jfoi8r" fileName="assets/panel.png" xy="683,327" size="1264,312"/>
+    <text id="n16_plih" name="n16" xy="751,423" size="518,124" fontSize="96" color="#f0e4bc" align="center" autoSize="none" text="Start with"/>
+    <component id="n17_plih" name="btnStart" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1085,1130" size="483,135">
+      <Button title="Start" titleFontSize="79"/>
+    </component>
+    <component id="n18_ulez" name="comboBox" src="ulez61" fileName="components/ComboBox1.xml" xy="1341,422" size="555,112">
+      <ComboBox visibleItemCount="10" autoClearItems="true">
+        <item title="Roy"/>
+        <item title="2"/>
+        <item title="3"/>
+        <item title="4"/>
+        <item title="5"/>
+        <item title="6"/>
+        <item title="7"/>
+        <item title="8"/>
+        <item title="9"/>
+        <item title="10"/>
+        <item title="11"/>
+        <item title="12"/>
+        <item title="13"/>
+        <item title="14"/>
+        <item title="15"/>
+      </ComboBox>
+    </component>
+  </displayList>
+</component>

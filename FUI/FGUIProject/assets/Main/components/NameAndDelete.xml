@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="453,124">
+  <displayList>
+    <component id="n15_gxos" name="btnName" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="0,2"/>
+    <component id="n16_gxos" name="btnDelete" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="378,0" size="75,122">
+      <Button title="X"/>
+    </component>
+  </displayList>
+</component>

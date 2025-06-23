@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="mkospyuu">
+  <resources>
+    <component id="9ckk0" name="ScriptWin.xml" path="/" exported="true"/>
+    <image id="y7l23" name="background.png" path="/assets/"/>
+    <component id="y7l25" name="Character.xml" path="/components/"/>
+    <image id="kt9f9" name="background.jpg" path="/assets/"/>
+    <image id="kt9fa" name="lunatic.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fb" name="lycanthrope.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fc" name="magician.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fd" name="marionette.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fe" name="mastermind.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9ff" name="mathematician.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fg" name="matron.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fh" name="mayor.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fi" name="mephit.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fj" name="lleech.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fk" name="mezepheles.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fl" name="minstrel.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fm" name="monk.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fn" name="moonchild.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fo" name="mutant.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fp" name="nightwatchman.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fq" name="noble.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fr" name="nodashii.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fs" name="oracle.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9ft" name="outsider.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fu" name="minion.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fv" name="pacifist.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fw" name="lilmonsta.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fx" name="leviathan.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fy" name="goblin.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9fz" name="godfather.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f10" name="golem.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f11" name="good.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f12" name="goon.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f13" name="gossip.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f14" name="grandmother.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f15" name="gunslinger.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f16" name="harlot.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f17" name="librarian.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f18" name="hellslibrarian.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f19" name="huntsman.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1a" name="imp.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1b" name="innkeeper.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1c" name="investigator.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1d" name="judge.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1e" name="juggler.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1f" name="king.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1g" name="klutz.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1h" name="legion.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1i" name="heretic.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1j" name="philosopher.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1k" name="pithag.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1l" name="pixie.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1m" name="snitch.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1n" name="soldier.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1o" name="spiritofivory.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1p" name="spy.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1q" name="stormcatcher.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1r" name="sweetheart.png" path="/assets/icons/" exported="true" scale9grid="91,70,182,140" smoothing="false"/>
+    <image id="kt9f1s" name="tealady.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1t" name="thief.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1u" name="tinker.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1v" name="snakecharmer.png" path="/assets/icons/" exported="true" scale9grid="0,0,-181,-230"/>
+    <image id="kt9f1w" name="towncrier.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1x" name="undertaker.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1y" name="vigormortis.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f1z" name="virgin.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f20" name="vortox.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f21" name="voudon.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f22" name="washerwoman.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f23" name="widow.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f24" name="witch.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f25" name="x.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f26" name="toymaker.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f27" name="slayer.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f28" name="shabaloth.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f29" name="sentinel.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2a" name="plus.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2b" name="po.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2c" name="poisoner.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2d" name="politician.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2e" name="poppygrower.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2f" name="preacher.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2g" name="professor.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2h" name="psychopath.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2i" name="pukka.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2j" name="puzzlemaster.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2k" name="ravenkeeper.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2l" name="recluse.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2m" name="revolutionary.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2n" name="riotold.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2o" name="sage.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2p" name="sailor.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2q" name="saint.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2r" name="savant.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2s" name="scapegoat.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2t" name="scarletwoman.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2u" name="seamstress.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2v" name="general.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2w" name="gangster.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2x" name="gambler.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2y" name="fortuneteller.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f2z" name="custom.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f30" name="luf.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f31" name="snv-demon.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f32" name="snv-minion.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f33" name="snv-outsider.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f34" name="snv-townsfolk.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f35" name="snv.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f36" name="tb-demon.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f37" name="tb-minion.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f38" name="bmr.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f39" name="tb-outsider.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f3a" name="tb.png" path="/assets/editions/" exported="true"/>
+    <font id="kt9f3c" name="papyrus.ttf" path="/assets/fonts/" renderMode="" samplePointSize="16"/>
+    <font id="kt9f3d" name="piratesbay.ttf" path="/assets/fonts/" renderMode="" samplePointSize="16"/>
+    <image id="kt9f3e" name="acrobat.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f3f" name="alchemist.png" path="/assets/icons/" exported="true" scale9grid="0,0,-296,-213"/>
+    <image id="kt9f3g" name="alhadikhia.png" path="/assets/icons/" exported="true" scale9grid="0,0,-212,-213"/>
+    <image id="kt9f3h" name="amnesiac.png" path="/assets/icons/" exported="true" scale9grid="0,0,-283,-204"/>
+    <image id="kt9f3i" name="angel.png" path="/assets/icons/" exported="true" scale9grid="0,0,-98,-350"/>
+    <image id="kt9f3j" name="tb-townsfolk.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f3k" name="bmr-townsfolk.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f3l" name="bmr-outsider.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f3m" name="bmr-minion.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f3n" name="clock-big.png" path="/assets/"/>
+    <image id="kt9f3o" name="clock-small.png" path="/assets/"/>
+    <image id="kt9f3p" name="clouds.png" path="/assets/"/>
+    <image id="kt9f3q" name="death.png" path="/assets/"/>
+    <image id="kt9f3r" name="demon-head.png" path="/assets/"/>
+    <image id="kt9f3s" name="demon-head2.png" path="/assets/"/>
+    <image id="kt9f3t" name="gstone.png" path="/assets/"/>
+    <image id="kt9f3u" name="leaf-left.png" path="/assets/"/>
+    <image id="kt9f3v" name="leaf-orange.png" path="/assets/"/>
+    <image id="kt9f3w" name="leaf-right.png" path="/assets/"/>
+    <image id="kt9f3x" name="leaf-top1.png" path="/assets/"/>
+    <image id="kt9f3y" name="leaf-top2.png" path="/assets/"/>
+    <image id="kt9f3z" name="leaf-top3.png" path="/assets/"/>
+    <image id="kt9f40" name="leaf-top4.png" path="/assets/"/>
+    <image id="kt9f41" name="leaf-top5.png" path="/assets/"/>
+    <image id="kt9f42" name="life.png" path="/assets/"/>
+    <image id="kt9f43" name="reminder.png" path="/assets/"/>
+    <image id="kt9f44" name="shroud.png" path="/assets/"/>
+    <image id="kt9f45" name="token.png" path="/assets/"/>
+    <image id="kt9f46" name="vote.png" path="/assets/"/>
+    <image id="kt9f47" name="bmr-demon.png" path="/assets/editions/" exported="true"/>
+    <image id="kt9f48" name="apprentice.png" path="/assets/icons/" exported="true" scale9grid="0,0,-190,-219"/>
+    <image id="kt9f49" name="zombuul.png" path="/assets/icons/" exported="true" scale9grid="0,0,-167,-222"/>
+    <image id="kt9f4a" name="artist.png" path="/assets/icons/" exported="true" scale9grid="0,0,-233,-209"/>
+    <image id="kt9f4b" name="atheist.png" path="/assets/icons/" exported="true" scale9grid="0,0,-100,-288"/>
+    <image id="kt9f4c" name="devilsadvocate.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4d" name="djinn.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4e" name="doomsayer.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4f" name="dreamer.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4g" name="drunk.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4h" name="duchess.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4i" name="empath.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4j" name="engineer.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4k" name="evil.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4l" name="deviant.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4m" name="eviltwin.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4n" name="fabled.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4o" name="fanggu.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4p" name="farmer.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4q" name="fearmonger.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4r" name="fibbin.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4s" name="fiddler.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4t" name="fisherman.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4u" name="flowergirl.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4v" name="fool.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4w" name="exorcist.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4x" name="deusexfiasco.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4y" name="damsel.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f4z" name="custom.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f50" name="balloonist.png" path="/assets/icons/" exported="true" scale9grid="0,0,-309,-218"/>
+    <image id="kt9f51" name="barber.png" path="/assets/icons/" exported="true" scale9grid="0,0,-409,-210"/>
+    <image id="kt9f52" name="barista.png" path="/assets/icons/" exported="true" scale9grid="0,0,-169,-229"/>
+    <image id="kt9f53" name="baron.png" path="/assets/icons/" exported="true" scale9grid="0,0,-262,-244"/>
+    <image id="kt9f54" name="beggar.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f55" name="bishop.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f56" name="bonecollector.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f57" name="boomdandy.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f58" name="bountyhunter.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f59" name="buddhist.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5a" name="bureaucrat.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5b" name="butcher.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5c" name="butler.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5d" name="cannibal.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5e" name="cerenovus.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5f" name="chambermaid.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5g" name="chef.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5h" name="choirboy.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5i" name="clockmaker.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5j" name="courtier.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5k" name="cultleader.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f5l" name="assassin.png" path="/assets/icons/" exported="true" scale9grid="0,0,-172,-257"/>
+    <sound id="kt9f5m" name="countdown.mp3" path="/assets/sounds/"/>
+    <component id="kt9f5n" name="ButtonNormal.xml" path="/components/"/>
+    <component id="kt9f5o" name="ScriptItem.xml" path="/components/"/>
+    <component id="kt9f5p" name="PutPlayNameWin.xml" path="/" exported="true"/>
+    <component id="kt9f5r" name="PutCharacterWin.xml" path="/" exported="true"/>
+    <component id="spc15s" name="ChooseWhoDrawFirstWin.xml" path="/" exported="true"/>
+    <component id="ivx25u" name="DrawingWin.xml" path="/" exported="true"/>
+    <component id="pa1f5v" name="MainWin.xml" path="/" exported="true"/>
+    <component id="plih5w" name="State.xml" path="/components/"/>
+    <component id="plih5x" name="Player.xml" path="/components/" exported="true"/>
+    <component id="ulez5y" name="Emp.xml" path="/components/"/>
+    <component id="ulez5z" name="ComboBox1_item.xml" path="/components/"/>
+    <component id="ulez60" name="ComboBox1_popup.xml" path="/components/"/>
+    <component id="ulez61" name="ComboBox1.xml" path="/components/" exported="true"/>
+    <image id="i3ro62" name="alsaahir.png" path="/assets/icons/" exported="true" scale9grid="0,0,-311,-205"/>
+    <image id="i3ro63" name="banshee.png" path="/assets/icons/" exported="true" scale9grid="0,0,-300,-206"/>
+    <image id="i3ro64" name="harpy.png" path="/assets/icons/" exported="true" scale9grid="0,0,-258,-271"/>
+    <image id="i3ro65" name="hatter.png" path="/assets/icons/" exported="true" scale9grid="0,0,-268,-296"/>
+    <image id="i3ro66" name="hermit.png" path="/assets/icons/" exported="true" scale9grid="0,0,-380,-188"/>
+    <image id="i3ro67" name="highpriestess.png" path="/assets/icons/" exported="true" scale9grid="0,0,-170,-443"/>
+    <image id="i3ro68" name="knight.png" path="/assets/icons/" exported="true" scale9grid="0,0,-243,-217"/>
+    <image id="i3ro69" name="shugenja.png" path="/assets/icons/" exported="true" scale9grid="0,0,-235,-287"/>
+    <image id="i3ro6a" name="plaguedoctor.png" path="/assets/icons/" exported="true" scale9grid="0,0,-201,-166"/>
+    <image id="i3ro6b" name="steward.png" path="/assets/icons/" exported="true" scale9grid="0,0,-211,-274"/>
+    <image id="i3ro6c" name="villageidiot.png" path="/assets/icons/" exported="true" scale9grid="0,0,-231,-287"/>
+    <image id="i3ro6d" name="ogre.png" path="/assets/icons/" exported="true" scale9grid="0,0,-184,-436"/>
+    <image id="i3ro6e" name="zealot.png" path="/assets/icons/" exported="true" scale9grid="0,0,-240,-263"/>
+    <image id="i3ro6f" name="boffin.png" path="/assets/icons/" exported="true" scale9grid="0,0,-287,-203"/>
+    <image id="i3ro6g" name="ojo.png" path="/assets/icons/" exported="true" scale9grid="0,0,-278,-197"/>
+    <image id="i3ro6h" name="organgrinder.png" path="/assets/icons/" exported="true" scale9grid="0,0,-282,-229"/>
+    <image id="i3ro6i" name="summoner.png" path="/assets/icons/" exported="true" scale9grid="0,0,-224,-225"/>
+    <image id="i3ro6j" name="vizier.png" path="/assets/icons/" exported="true" scale9grid="0,0,-224,-264"/>
+    <image id="i3ro6k" name="wizard.png" path="/assets/icons/" exported="true" scale9grid="0,0,-191,-202"/>
+    <image id="i3ro6l" name="xaan.png" path="/assets/icons/" exported="true" scale9grid="0,0,-174,-390"/>
+    <image id="i3ro6m" name="kazali.png" path="/assets/icons/" exported="true" scale9grid="0,0,-211,-257"/>
+    <image id="i3ro6n" name="lordoftyphon.png" path="/assets/icons/" exported="true" scale9grid="0,0,-217,-297"/>
+    <image id="i3ro6p" name="riot.png" path="/assets/icons/" exported="true" scale9grid="0,0,-225,-223"/>
+    <image id="i3ro6q" name="yaggababble.png" path="/assets/icons/" exported="true" scale9grid="0,0,-227,-216"/>
+    <image id="i3ro6r" name="banxian.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-26,-72"/>
+    <image id="i3ro6s" name="dianyuzhang.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro6t" name="diaomin.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro6u" name="fangshi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro6v" name="fengshuishi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro6w" name="gudiao.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro6x" name="guhuoniao.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro6y" name="huapi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro6z" name="jianning.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro70" name="jinweijun.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro71" name="jiubao.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro72" name="limao.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro73" name="mengpo.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro74" name="niangjiushi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro75" name="qianke.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro76" name="ranfangfangzhu.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro77" name="rulianshi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro78" name="shelingchengzhi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro79" name="shiguan.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7a" name="shutong.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7b" name="tixingguan.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7c" name="xizi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7d" name="xuncha.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7e" name="yanluo.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7f" name="yanshi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7g" name="yinluren.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7h" name="yishi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7i" name="yongjiang.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7j" name="daoshi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7k" name="zhen.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7l" name="daoke.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7m" name="bingbi.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro7n" name="bianlianshi.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-58,-29"/>
+    <image id="i3ro7o" name="dagengren.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-46,-36"/>
+    <image id="i3ro7p" name="dianxiaoer.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-66,-128"/>
+    <image id="i3ro7q" name="ganshiren.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-67,-50"/>
+    <image id="i3ro7r" name="geling.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-74,-40"/>
+    <image id="i3ro7s" name="heshang.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-47,-80"/>
+    <image id="i3ro7t" name="humeiniang.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-99,-89"/>
+    <image id="i3ro7u" name="hundun.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-61,-81"/>
+    <image id="i3ro7v" name="jiaohuazi.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-87,-55"/>
+    <image id="i3ro7w" name="jinweijun.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-63,-69"/>
+    <image id="i3ro7x" name="jinyiwei.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-71,-60"/>
+    <image id="i3ro7y" name="langzhong.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-49,-56"/>
+    <image id="i3ro7z" name="nichen.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-30,-89"/>
+    <image id="i3ro80" name="qilin.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-66,-88"/>
+    <image id="i3ro81" name="qintianjian.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro82" name="qiongqi.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro83" name="shaxing.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro84" name="shijie.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro85" name="shusheng.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro86" name="taotie.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro87" name="taowu.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro88" name="wudaozhe.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro89" name="xionghaizi.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro8a" name="xizi.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro8b" name="yangguren.png" path="/assets/icons/huadeng/" exported="true"/>
+    <image id="i3ro8c" name="yinyangshi.png" path="/assets/icons/huadeng/" exported="true" scale9grid="0,0,-65,-64"/>
+    <image id="i3ro8d" name="baojun.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro8e" name="chongfei.png" path="/assets/icons/shanyu/" exported="true"/>
+    <image id="i3ro8f" name="zhifu.png" path="/assets/icons/shanyu/" exported="true" scale9grid="0,0,-42,-29"/>
+    <component id="gxos8g" name="NameAndDelete.xml" path="/components/"/>
+    <component id="gxos8i" name="ChooseWhoDrawFirstCont.xml" path="/Cont/"/>
+    <component id="gxos8j" name="DrawingCont.xml" path="/Cont/"/>
+    <component id="gxos8k" name="MainCont.xml" path="/Cont/"/>
+    <component id="gxos8l" name="PutCharacterCont.xml" path="/Cont/"/>
+    <component id="gxos8m" name="PutPlayerNameCont.xml" path="/Cont/"/>
+    <component id="gxos8n" name="ScriptCont.xml" path="/Cont/"/>
+    <component id="jfoi8o" name="Test.xml" path="/Cont/"/>
+    <image id="jfoi8p" name="popup.png" path="/assets/" scale="9grid" scale9grid="119,37,238,19"/>
+    <image id="jfoi8q" name="button.png" path="/assets/" scale="9grid" scale9grid="23,24,429,109"/>
+    <image id="jfoi8r" name="panel.png" path="/assets/" scale="9grid" scale9grid="37,42,543,649"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

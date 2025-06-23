@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <controller name="state" pages="0,confirm person,1,showing character,42,end" selected="1"/>
+  <displayList>
+    <image id="n21_jfoi" name="n21" src="jfoi8r" fileName="assets/panel.png" xy="154,116" size="2217,375"/>
+    <text id="n12_spc1" name="txtTitle" xy="319,166" size="1968,287" fontSize="94" color="#f0e4bc" vars="true" autoSize="none" text="When you finish ,make sure you press finish button before passing to next one.">
+      <gearText controller="state" pages="0,42" values="Are you {name=Roy} ? If you are {name2=Roy} look the character|Give it back to the storyteller.&#xA;Do not press start game button!!!" default="When you finish ,make sure you press finish button before passing to next one."/>
+    </text>
+    <component id="n13_ivx2" name="btnLook" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="907,548" size="594,133">
+      <gearDisplay controller="state" pages="0"/>
+      <gearText controller="state" pages="0,1" values="Look|Direction:Down" default=""/>
+      <Button title="Direction:Down" titleFontSize="77"/>
+    </component>
+    <component id="n14_ivx2" name="btnFinish" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1020,1265" size="594,133">
+      <gearDisplay controller="state" pages="1"/>
+      <gearText controller="state" pages="0,1" values="Look|finish" default=""/>
+      <Button title="finish" titleFontSize="77"/>
+    </component>
+    <image id="n16_plih" name="n16" src="kt9f45" fileName="assets/token.png" xy="374,585">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <loader id="n17_plih" name="imgCharacter" xy="425,642" size="430,425" url="ui://mkospyuukt9f3g" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="state" pages="1"/>
+    </loader>
+    <image id="n18_plih" name="n18" src="jfoi8r" fileName="assets/panel.png" xy="1056,552" size="1341,609">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <text id="n19_plih" name="txtCont" xy="1094,584" size="1266,538" fontSize="75" color="#f0e4bc" vars="true" autoSize="shrink" text="{name=Poisoner}&#xA;{cont=Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if &amp; only if they die.}">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <component id="n20_plih" name="btnStartGame" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="311,545" size="496,158">
+      <gearDisplay controller="state" pages="42"/>
+      <Button title="StartGame" titleFontSize="57"/>
+    </component>
+  </displayList>
+</component>

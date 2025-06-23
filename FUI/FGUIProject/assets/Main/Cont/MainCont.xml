@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <controller name="state" pages="0,in game,2,showing" selected="0"/>
+  <controller name="selectWords" pages="0,,1," selected="1"/>
+  <controller name="dealWithPlayer" pages="0,,1," selected="0"/>
+  <controller name="dead" pages="0,,1," selected="0"/>
+  <controller name="selectCharacter" pages="0,,1," selected="0"/>
+  <controller name="firstNight" homePageType="specific" homePage="1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n53_ulez" name="emp" src="ulez5y" fileName="components/Emp.xml" xy="0,0" size="2560,1600"/>
+    <list id="n57_ulez" name="lstNightCharacter" xy="2213,20" size="398,2069" scale="0.75,0.75" overflow="scroll" scrollBarFlags="384" lineGap="15" defaultItem="ui://mkospyuuy7l25" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n58_ulez" name="btnFirstNight" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1883,11" size="298,109">
+      <gearText controller="firstNight" pages="0,1" values="other night|first night"/>
+      <Button title="other night" titleFontSize="34"/>
+    </component>
+    <text id="n59_ulez" name="txtCounter" xy="1085,575" size="344,163" fontSize="81" color="#f0e4bc" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n65_gd5u" name="btnAdd60s" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1204,750" size="117,109">
+      <Button title="+60s" titleFontSize="34"/>
+    </component>
+    <component id="n60_ulez" name="btnAdd30s" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1082,750" size="117,109">
+      <Button title="+30s" titleFontSize="34"/>
+    </component>
+    <component id="n61_ulez" name="btnReset" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1331,749" size="117,109">
+      <Button title="reset" titleFontSize="34"/>
+    </component>
+    <component id="n21_plih" name="btnShowSth" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="44,30" size="298,109">
+      <Button title="Show something" titleFontSize="34"/>
+    </component>
+    <loader id="n23_plih" name="n23" xy="0,0" size="2560,1600" url="ui://mkospyuuy7l23" fill="scaleFree">
+      <gearDisplay controller="state" pages="1,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n29_plih" name="n29" src="jfoi8r" fileName="assets/panel.png" xy="560,350" size="1439,484">
+      <gearDisplay controller="state" pages="2"/>
+    </image>
+    <text id="n28_plih" name="txtText" xy="624,401" size="1311,395" fontSize="98" color="#f0e4bc" align="center" vAlign="middle" autoSize="none" text="" input="true" prompt="Input Text.......">
+      <gearDisplay controller="state" pages="2"/>
+    </text>
+    <list id="n62_gxos" name="lstShowingCharacter" xy="221,899" size="2133,453" layout="row" overflow="scroll" defaultItem="ui://mkospyuuy7l25" align="center">
+      <gearDisplay controller="state" pages="2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n37_plih" name="n37" src="jfoi8r" fileName="assets/panel.png" xy="35,104" size="896,1376" alpha="0.652">
+      <gearDisplay controller="state" pages="2"/>
+      <gearDisplay2 controller="selectWords" pages="1" condition="0"/>
+    </image>
+    <list id="n35_plih" name="lstShowingWords" xy="90,186" size="779,1228" overflow="scroll" lineGap="18" defaultItem="ui://mkospyuukt9f5n">
+      <gearDisplay controller="state" pages="2"/>
+      <gearDisplay2 controller="selectWords" pages="1" condition="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n36_plih" name="btnFinish" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2138,33">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="Finish"/>
+    </component>
+    <component id="n63_gxos" name="btnAddCahracter" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2137,311">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="+character"/>
+    </component>
+    <component id="n64_gxos" name="btnMinusCahracter" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2137,451">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="-character"/>
+    </component>
+    <component id="n38_plih" name="btnSelectWords" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2135,174">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="Select Words"/>
+    </component>
+    <image id="n39_plih" name="n39" src="jfoi8r" fileName="assets/panel.png" xy="103,55" size="2422,1492" alpha="0.684">
+      <gearDisplay controller="dealWithPlayer" pages="1"/>
+    </image>
+    <list id="n40_plih" name="lstStateWords" xy="165,110" size="692,1384" overflow="scroll" lineGap="19" defaultItem="ui://mkospyuukt9f5n">
+      <gearDisplay controller="dealWithPlayer" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n42_plih" name="n42" src="jfoi8r" fileName="assets/panel.png" xy="934,106" size="1532,396">
+      <gearDisplay controller="dealWithPlayer" pages="1"/>
+    </image>
+    <text id="n41_plih" name="txtState" xy="961,132" size="1460,350" fontSize="98" color="#f0e4bc" align="center" vAlign="middle" autoSize="none" text="" input="true" prompt="Input text here....">
+      <gearDisplay controller="dealWithPlayer" pages="1"/>
+    </text>
+    <component id="n43_plih" name="btnAddState" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1378,531" size="590,122">
+      <gearDisplay controller="dealWithPlayer" pages="1"/>
+      <Button title="Add state"/>
+    </component>
+    <component id="n44_plih" name="btnBackDealPlayers" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1933,1347" size="579,122">
+      <gearDisplay controller="dealWithPlayer" pages="1"/>
+      <Button title="Back"/>
+    </component>
+    <text id="n47_plih" name="n47" xy="1020,730" size="667,126" fontSize="55" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Click to remove state">
+      <gearDisplay controller="dealWithPlayer" pages="1"/>
+    </text>
+    <list id="n48_plih" name="lstStates" xy="964,903" size="431,289" scale="2,2" layout="flow_hz" overflow="scroll" defaultItem="ui://mkospyuuplih5w">
+      <gearDisplay controller="dealWithPlayer" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n52_ulez" name="btnDead" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2029,714" size="426,122">
+      <gearDisplay controller="dealWithPlayer" pages="1"/>
+      <gearText controller="dead" pages="0,1" values="Alive|Dead"/>
+      <Button title="Alive"/>
+    </component>
+    <image id="n54_ulez" name="n54" src="jfoi8r" fileName="assets/panel.png" xy="190,201" size="2137,1218" alpha="0.752">
+      <gearDisplay controller="selectCharacter" pages="1"/>
+    </image>
+    <list id="n55_ulez" name="lstSpecific" xy="223,253" size="2216,1396" scale="0.8,0.8" layout="flow_hz" overflow="scroll" defaultItem="ui://mkospyuuy7l25" autoClearItems="true">
+      <gearDisplay controller="selectCharacter" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n56_ulez" name="btnConfirm" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2024,1242" size="259,103">
+      <gearDisplay controller="selectCharacter" pages="1"/>
+      <Button title="confirm" titleFontSize="42"/>
+    </component>
+  </displayList>
+</component>

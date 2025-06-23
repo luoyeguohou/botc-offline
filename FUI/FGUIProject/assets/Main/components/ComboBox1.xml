@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="555,112" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_jfoi" name="n4" src="jfoi8p" fileName="assets/popup.png" xy="0,0" size="555,112">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3_ulez" name="title" xy="58,15" size="383,78" fontSize="59" color="#f0e4bc" vAlign="middle" autoSize="shrink" singleLine="true" text="123">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://mkospyuuulez60"/>
+</component>

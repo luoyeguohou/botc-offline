@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="686,112">
+  <controller name="custom" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n9_gd5u" name="n9" src="jfoi8r" fileName="assets/panel.png" xy="0,0" size="2292,375" scale="0.3,0.3"/>
+    <text id="n5_kt9f" name="txtName" xy="11,14" size="316,84" fontSize="55" color="#f0e4bc" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="TB"/>
+    <component id="n6_kt9f" name="btnPick" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="331,13" size="123,81">
+      <Button titleFontSize="42"/>
+    </component>
+    <component id="n7_gxos" name="btnEdit" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="460,13" size="109,81">
+      <gearDisplay controller="custom" pages="1"/>
+      <Button title="edit" titleFontSize="42"/>
+    </component>
+    <component id="n8_gxos" name="btnDelete" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="577,15" size="106,81">
+      <gearDisplay controller="custom" pages="1"/>
+      <Button title="Delete" titleFontSize="42"/>
+    </component>
+  </displayList>
+</component>

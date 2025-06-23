@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <controller name="choosingSpecific" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n19_jfoi" name="n19" src="jfoi8r" fileName="assets/panel.png" xy="423,51" size="1685,239"/>
+    <text id="n8_kt9f" name="txtTitle" xy="210,72" size="2101,206" fontSize="76" color="#ffffff" align="center" vars="true" autoSize="none" text="There should be {num1=1} townsforks  {num2=1} outsiders &#xA;{num3=1} minions {num4=1} demon."/>
+    <component id="n18_ulez" name="btnFinish" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1958,1349" size="540,93">
+      <Button title="Finish" titleFontSize="41"/>
+    </component>
+    <list id="n9_spc1" name="lstCharacter" xy="144,307" size="2200,1480" scale="0.8,0.8" layout="flow_hz" overflow="scroll" lineGap="77" defaultItem="ui://mkospyuuy7l25" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n10_spc1" name="btnTownsfolk" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1943,502" size="540,93">
+      <Button title="Add 1 random townsfork" titleFontSize="41"/>
+    </component>
+    <component id="n11_spc1" name="btnOutsider" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1939,612" size="540,93">
+      <Button title="Add 1 random outsider" titleFontSize="41"/>
+    </component>
+    <component id="n12_spc1" name="btnMinion" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1939,727" size="540,93">
+      <Button title="Add 1 random minion" titleFontSize="41"/>
+    </component>
+    <component id="n13_spc1" name="btnDemon" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1934,842" size="540,93">
+      <Button title="Add 1 random demon" titleFontSize="41"/>
+    </component>
+    <component id="n14_spc1" name="btnSpecific" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1934,962" size="540,93">
+      <Button title="Add 1 specific" titleFontSize="41"/>
+    </component>
+    <image id="n15_spc1" name="n15" src="jfoi8r" fileName="assets/panel.png" xy="260,179" size="2137,1218" alpha="0.752">
+      <gearDisplay controller="choosingSpecific" pages="1"/>
+    </image>
+    <list id="n16_spc1" name="lstSpecific" xy="290,231" size="2165,1379" scale="0.8,0.8" layout="flow_hz" overflow="scroll" defaultItem="ui://mkospyuuy7l25" autoClearItems="true">
+      <gearDisplay controller="choosingSpecific" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n17_pa1f" name="btnConfirm" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2094,1220" size="259,103">
+      <gearDisplay controller="choosingSpecific" pages="1"/>
+      <Button title="confirm" titleFontSize="42"/>
+    </component>
+  </displayList>
+</component>

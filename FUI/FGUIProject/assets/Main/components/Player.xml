@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="497,500" opaque="false">
+  <controller name="state" exported="true" pages="0,not In game,1,In game" selected="1"/>
+  <controller name="dead" pages="1,,0," selected="0"/>
+  <displayList>
+    <loader id="n12_plih" name="n12" xy="108,118" size="274,274" url="ui://mkospyuukt9f45" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="dead" pages="0" values="ui://mkospyuukt9f3q" default="ui://mkospyuukt9f45"/>
+    </loader>
+    <loader id="n25_plih" name="img" xy="137,151" size="218,220" url="ui://mkospyuukt9fd" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="state" pages="1"/>
+      <gearColor controller="dead" pages="0" values="#333333" default="#ffffff"/>
+    </loader>
+    <text id="n40_plih" name="n40" xy="94,120" size="303,213" fontSize="167" align="center" vAlign="middle" autoSize="none" text="?">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+    <image id="n27_plih" name="n27" src="jfoi8r" fileName="assets/panel.png" xy="107,54" size="570,230" scale="0.5,0.5">
+      <gearXY controller="state" pages="0,1" values="107,68|107,54"/>
+    </image>
+    <text id="n26_plih" name="txtInputName" xy="124,72" size="248,106" fontSize="68" color="#f0e4bc" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="" input="true">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+    <image id="n37_plih" name="n37" src="jfoi8r" fileName="assets/panel.png" xy="47,340" size="822,231" scale="0.5,0.5">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+    <text id="n38_plih" name="txtCharacter" xy="65,354" size="378,90" fontSize="68" color="#f0e4bc" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="Poisoner" input="true">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+    <list id="n36_plih" name="lstState" xy="5,3" size="493,391" layout="flow_vt" overflow="scroll" lineGap="4" colGap="246" defaultItem="ui://mkospyuuplih5w" autoClearItems="true">
+      <gearDisplay controller="state" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n39_plih" name="txtName" xy="152,54" size="206,106" fontSize="68" color="#f0e4bc" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="Roy">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+  </displayList>
+</component>
