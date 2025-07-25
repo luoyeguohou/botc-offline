@@ -6,10 +6,9 @@ public class Cfg
 {
     public static List<string> supportLanguages = new() { "chinese", "english" };
     public static string language = "english";
-
     public static Dictionary<string, RoleCfg> roles = new();
     public static Dictionary<string, List<string>> rolesByScript = new();
-    public static List<string> travellers= new();
+    public static List<string> travellers = new();
     public static Dictionary<string, ScriptCfg> scripts = new();
     public static Dictionary<string, TipCfg> tips = new();
     public static Dictionary<string, List<TipCfg>> tipsByRole = new();
@@ -28,55 +27,15 @@ public class Cfg
         JsonData scriptsJd = JsonMapper.ToObject(scriptsText);
         JsonData scriptsChineseJd = JsonMapper.ToObject(scriptsChineseText);
         JsonData scripts2Jd = JsonMapper.ToObject(PlayerPrefs.GetString("scripts", "[]"));
-        int cnt = 0;
-        int town = 0;
-        int outs = 0;
-        int minions = 0;
-        int demon = 0;
-        List<string> townsfolk = new();
         foreach (JsonData d in rolesJd)
         {
             RoleCfg cfg = JsonUtility.FromJson(d.ToJson().ToString(), typeof(RoleCfg)) as RoleCfg;
             roles[cfg.id] = cfg;
             if (!rolesByScript.ContainsKey(cfg.edition)) rolesByScript[cfg.edition] = new();
             rolesByScript[cfg.edition].Add(cfg.id);
-
             RoleI18NCfg rCfg = JsonUtility.FromJson(d.ToJson().ToString(), typeof(RoleI18NCfg)) as RoleI18NCfg;
             cfg.i18NCfgs["english"] = rCfg;
-
-            if (cfg.team == "traveler")
-            {
-                travellers.Add(cfg.id);
-            }
-
-            if (cfg.edition == "")
-            {
-                cnt++;
-                if (cfg.team == "townsfolk") {
-                        town++;
-                    townsfolk.Add(cfg.id);
-                }
-                if (cfg.team == "outsider") {
-
-                    outs++; }
-                if (cfg.team == "minion") { 
-                    minions++; }
-                if (cfg.team == "demon"){
-                      Debug.Log(cfg.id);
-                    demon++;
-                }
-            }
         }
-        Debug.Log(town);
-        Debug.Log(outs);
-        Debug.Log(minions);
-        Debug.Log(demon);
-        Debug.Log(cnt);
-        townsfolk.Sort();
-        //foreach (var item in townsfolk)
-        //{
-        //    Debug.Log(item);
-        //}
         foreach (JsonData d in rolesChineseJd)
         {
             RoleI18NCfg rCfg = JsonUtility.FromJson(d.ToJson().ToString(), typeof(RoleI18NCfg)) as RoleI18NCfg;
@@ -122,7 +81,6 @@ public class Cfg
             };
 
         }
-
         foreach (JsonData d in tipJson["tipCfg"])
         {
             TipCfg cfg = JsonUtility.FromJson(d.ToJson().ToString(), typeof(TipCfg)) as TipCfg;
@@ -133,11 +91,13 @@ public class Cfg
         }
     }
 
-    public static void Save() {
-        List<ScriptCfg> scriptsTemp = new ();
+    public static void Save()
+    {
+        List<ScriptCfg> scriptsTemp = new();
         foreach (var item in scripts)
         {
-            if (item.Value.createByUsers) {
+            if (item.Value.createByUsers)
+            {
                 scriptsTemp.Add(item.Value);
             }
         }

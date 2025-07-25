@@ -5,7 +5,7 @@ using FairyGUI.Utils;
 
 namespace Main
 {
-    public partial class UI_NewMainCont : GComponent
+    public partial class UI_MainCont : GComponent
     {
         public Controller m_state;
         public Controller m_firstNight;
@@ -27,9 +27,9 @@ namespace Main
         public GLoader m_btnEnglish;
         public const string URL = "ui://mkospyuua48c92";
 
-        public static UI_NewMainCont CreateInstance()
+        public static UI_MainCont CreateInstance()
         {
-            return (UI_NewMainCont)UIPackage.CreateObject("Main", "NewMainCont");
+            return (UI_MainCont)UIPackage.CreateObject("Main", "MainCont");
         }
 
         public override void ConstructFromXML(XML xml)

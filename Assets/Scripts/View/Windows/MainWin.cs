@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 namespace Main
 {
-    public partial class UI_NewMainWin : FairyWindow
+    public partial class UI_MainWin : FairyWindow
     {
         public override void ConstructFromResource()
         {

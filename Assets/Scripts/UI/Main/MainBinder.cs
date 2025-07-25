@@ -9,7 +9,7 @@ namespace Main
         public static void BindAll()
         {
             UIObjectFactory.SetPackageItemExtension(UI_ScriptWin.URL, typeof(UI_ScriptWin));
-            UIObjectFactory.SetPackageItemExtension(UI_NewMainCont.URL, typeof(UI_NewMainCont));
+            UIObjectFactory.SetPackageItemExtension(UI_MainCont.URL, typeof(UI_MainCont));
             UIObjectFactory.SetPackageItemExtension(UI_ChooseWhoDrawFirstCont.URL, typeof(UI_ChooseWhoDrawFirstCont));
             UIObjectFactory.SetPackageItemExtension(UI_DrawingCont.URL, typeof(UI_DrawingCont));
             UIObjectFactory.SetPackageItemExtension(UI_PutCharacterCont.URL, typeof(UI_PutCharacterCont));
@@ -24,7 +24,7 @@ namespace Main
             UIObjectFactory.SetPackageItemExtension(UI_AddRemindTokensCont.URL, typeof(UI_AddRemindTokensCont));
             UIObjectFactory.SetPackageItemExtension(UI_AddRemindTokensWin.URL, typeof(UI_AddRemindTokensWin));
             UIObjectFactory.SetPackageItemExtension(UI_HintMessage.URL, typeof(UI_HintMessage));
-            UIObjectFactory.SetPackageItemExtension(UI_NewMainWin.URL, typeof(UI_NewMainWin));
+            UIObjectFactory.SetPackageItemExtension(UI_MainWin.URL, typeof(UI_MainWin));
             UIObjectFactory.SetPackageItemExtension(UI_State.URL, typeof(UI_State));
             UIObjectFactory.SetPackageItemExtension(UI_Player.URL, typeof(UI_Player));
             UIObjectFactory.SetPackageItemExtension(UI_ChooseWhoDrawFirstWin.URL, typeof(UI_ChooseWhoDrawFirstWin));

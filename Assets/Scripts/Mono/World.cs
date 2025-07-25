@@ -12,7 +12,7 @@ public class World
         e.sharedConfig.AddComp(new PlayerComp());
         e.sharedConfig.AddComp(new NameComp());
 
-        //// add system
+        // add system
         e.AddSystem(new ScriptSys());
         e.AddSystem(new PlayerSys());
         e.AddSystem(new RoleSys());

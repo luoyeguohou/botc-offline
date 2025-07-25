@@ -45,8 +45,8 @@
       <gearDisplay controller="state" pages="1"/>
       <Button title="Pick Roles" titleFontSize="34"/>
     </component>
-    <image id="n82_vcll" name="n82" src="jfoi8r" fileName="assets/panel.png" xy="10,12" size="664,136"/>
-    <text id="n81_vcll" name="txtScript" xy="29,40" size="614,83" fontSize="58" color="#ffffff" vars="true" autoSize="none" text="Curr Script:{curr=暗月初生}"/>
+    <image id="n82_vcll" name="n82" src="jfoi8r" fileName="assets/panel.png" xy="10,12" size="743,136"/>
+    <text id="n81_vcll" name="txtScript" xy="29,40" size="696,83" fontSize="58" color="#ffffff" vars="true" autoSize="shrink" text="Curr Script:{curr=暗月初生}"/>
     <list id="n83_wu42" name="lstRoleInPlay" xy="2069,298" size="912,2568" scale="0.5,0.5" layout="flow_vt" overflow="scroll" scrollBarFlags="384" lineGap="15" defaultItem="ui://mkospyuuplih5x" autoClearItems="true">
       <gearDisplay controller="state" pages="1"/>
       <item/>

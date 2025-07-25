@@ -44,3 +44,9 @@ public class NameComp : IComponent
 {
     public List<string> names = new();
 }
+
+public class AllRolesNightOrderComp
+{
+    public List<string> firstNight = new();
+    public List<string> otherNight = new();
+}

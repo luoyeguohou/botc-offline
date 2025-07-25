@@ -310,8 +310,8 @@
     <image id="r83h8y" name="gardener.png" path="/assets/icons/" exported="true"/>
     <image id="r83h8z" name="gnome.png" path="/assets/icons/" exported="true"/>
     <image id="r83h90" name="demons.png" path="/assets/icons/" exported="true"/>
-    <component id="perk91" name="NewMainWin.xml" path="/" exported="true"/>
-    <component id="a48c92" name="NewMainCont.xml" path="/Cont/"/>
+    <component id="perk91" name="MainWin.xml" path="/" exported="true"/>
+    <component id="a48c92" name="MainCont.xml" path="/Cont/"/>
     <component id="vcll93" name="CreateScriptWin.xml" path="/" exported="true"/>
     <component id="vcll94" name="CreateScriptCont.xml" path="/Cont/"/>
     <component id="h32k95" name="DealWithPlayerCont.xml" path="/Cont/"/>

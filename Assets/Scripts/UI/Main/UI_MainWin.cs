@@ -5,15 +5,15 @@ using FairyGUI.Utils;
 
 namespace Main
 {
-    public partial class UI_NewMainWin : FairyWindow
+    public partial class UI_MainWin : FairyWindow
     {
         public GLoader m_bg1;
-        public UI_NewMainCont m_cont;
+        public UI_MainCont m_cont;
         public const string URL = "ui://mkospyuuperk91";
 
-        public static UI_NewMainWin CreateInstance()
+        public static UI_MainWin CreateInstance()
         {
-            return (UI_NewMainWin)UIPackage.CreateObject("Main", "NewMainWin");
+            return (UI_MainWin)UIPackage.CreateObject("Main", "MainWin");
         }
 
         public override void ConstructFromXML(XML xml)
@@ -21,7 +21,7 @@ namespace Main
             base.ConstructFromXML(xml);
 
             m_bg1 = (GLoader)GetChildAt(0);
-            m_cont = (UI_NewMainCont)GetChildAt(1);
+            m_cont = (UI_MainCont)GetChildAt(1);
         }
     }
 }

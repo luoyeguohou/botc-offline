@@ -15,8 +15,6 @@ namespace Main
         public override void ConstructFromResource()
         {
             base.ConstructFromResource();
-            UIManager.windows.Add(this);
-
             btnBack = GetChild("btnBack") as GButton;
             btnHide = GetChild("btnHide") as GButton;
             cont = GetChild("cont");
@@ -25,12 +23,6 @@ namespace Main
             btnBack?.onClick.Add(Dispose);
             bg?.onClick.Add(Dispose);
             btnHide?.onClick.Add(Hide);
-        }
-
-        public override void Dispose()
-        {
-            base.Dispose();
-            UIManager.windows.Remove(this);
         }
 
         protected void Hide()
