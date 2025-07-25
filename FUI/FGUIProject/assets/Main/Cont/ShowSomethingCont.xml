@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2460,1437">
+  <controller name="selectWord" pages="0,,1," selected="1"/>
+  <controller name="selectCharacter" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n29_plih" name="n29" src="jfoi8r" fileName="assets/panel.png" xy="512,317" size="1439,484"/>
+    <text id="n28_plih" name="txtText" xy="576,368" size="1311,395" fontSize="98" color="#f0e4bc" align="center" vAlign="middle" autoSize="none" text="" input="true" prompt="Input Text......."/>
+    <list id="n62_gxos" name="lstShowingCharacter" xy="173,866" size="2133,453" layout="row" overflow="scroll" defaultItem="ui://mkospyuuy7l25" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n36_plih" name="btnFinish" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2090,0">
+      <Button title="Finish"/>
+    </component>
+    <component id="n63_gxos" name="btnAddCahracter" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2089,278">
+      <Button title="+character"/>
+    </component>
+    <component id="n64_gxos" name="btnMinusCahracter" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2089,418">
+      <Button title="-character"/>
+    </component>
+    <component id="n38_plih" name="btnSelectWords" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2087,141">
+      <Button title="Select Words"/>
+    </component>
+    <image id="n65_wu42" name="n65" src="jfoi8r" fileName="assets/panel.png" xy="0,61" size="896,1376" alpha="0.652">
+      <gearDisplay controller="selectWord" pages="1"/>
+    </image>
+    <list id="n66_wu42" name="lstShowingWords" xy="55,143" size="779,1228" overflow="scroll" lineGap="18" defaultItem="ui://mkospyuukt9f5n">
+      <gearDisplay controller="selectWord" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n67_wu42" name="n67" src="jfoi8r" fileName="assets/panel.png" xy="158,103" size="2137,1218" alpha="0.752">
+      <gearDisplay controller="selectCharacter" pages="1"/>
+    </image>
+    <list id="n68_wu42" name="lstSpecific" xy="191,155" size="2216,1396" scale="0.8,0.8" layout="flow_hz" overflow="scroll" defaultItem="ui://mkospyuuy7l25" autoClearItems="true">
+      <gearDisplay controller="selectCharacter" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n69_wu42" name="btnConfirm" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1990,1144" size="259,103">
+      <gearDisplay controller="selectCharacter" pages="1"/>
+      <Button title="confirm" titleFontSize="42"/>
+    </component>
+  </displayList>
+</component>

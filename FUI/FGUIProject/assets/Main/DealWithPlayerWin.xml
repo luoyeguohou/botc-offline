@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <component id="n0_h32k" name="cont" src="h32k95" fileName="Cont/DealWithPlayerCont.xml" xy="69,54">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

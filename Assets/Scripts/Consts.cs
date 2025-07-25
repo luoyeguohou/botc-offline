@@ -58,4 +58,19 @@ public class Consts : MonoBehaviour
         "Use your ability now?",
         "Did you nominate today?",
     };
+
+    public static readonly string[] showingChineseWords = {
+        "这个是恶魔",
+        "这些角色不在场",
+        "这个能力选中了你",
+        "你是",
+        "这个玩家是",
+        "你有这个能力",
+        "这些角色在场",
+        "这些人是你的爪牙",
+        "你今天投票了么？",
+        "你的选择是？",
+        "你用你的能力吗?",
+        "你今天提名了吗?",
+    };
 }

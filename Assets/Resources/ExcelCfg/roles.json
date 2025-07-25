@@ -1454,7 +1454,7 @@
     "id": "acrobat",
     "name": "Acrobat",
     "edition": "",
-    "team": "outsider",
+    "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 20,
@@ -1583,20 +1583,6 @@
     "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins."
   },
   {
-    "id": "mephit",
-    "name": "Mephit",
-    "edition": "",
-    "team": "minion",
-    "firstNight": 39,
-    "firstNightReminder": "Show the Mephit their secret word.",
-    "otherNight": 30,
-    "otherNightReminder": "Wake the 1st good player that said the Mephit's secret word and show them the 'You are' card and the thumbs down evil signal.",
-    "reminders": ["Turns evil",
-        "No ability"],
-    "setup": false,
-    "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night."
-  },
-  {
     "id": "mezepheles",
     "name": "Mezepheles",
     "edition": "",
@@ -1712,19 +1698,6 @@
         "Good player executed"],
     "setup": false,
     "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins."
-  },
-  {
-    "id": "riotold",
-    "name": "RiotOld",
-    "edition": "",
-    "team": "demon",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": true,
-    "ability": "Nominees die, but may nominate again immediately (on day 3, they must). After day 3, evil wins. [All Minions are Riot]"
   },
   {
     "id": "gangster",
@@ -2765,6 +2738,45 @@
     "reminders": [],
     "setup": false,
     "ability": "Each night, choose a player: they die tomorrow night. On your 1st night, look at the Grimoire and choose a player: they die on the 3rd night, even if for some reason they could not."
+  },
+  {
+    "id": "princess",
+    "name": "Princess",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn’t kill tonight."
+  },
+  {
+    "id": "princess",
+    "name": "Princess",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn’t kill tonight."
+  },
+  {
+    "id": "wraith",
+    "name": "Wraith",
+    "edition": "",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": "You may choose to open your eyes at night. You wake when other evil players do."
   }
 
 ]

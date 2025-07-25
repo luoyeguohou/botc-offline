@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- ddb file path -->
+	<ddb>./data/design.db</ddb>
+	<!-- output json file path -->
+	<output>./design.json</output>
+	<!-- encode pretty for read -->
+	<EnablePretty>1</EnablePretty>
+	<tables>
+		<!-- tip.xlsx -->
+		<table name="tipCfg">*</table>
+	</tables>
+</config>

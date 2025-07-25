@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2422,1492">
+  <controller name="isTraveller" pages="0,,1," selected="0"/>
+  <controller name="isPlayer" pages="0,,1," selected="1"/>
+  <controller name="isGood" homePageType="specific" homePage="1" pages="0,,1," selected="0"/>
+  <controller name="hasDeadVote" pages="0,,1," selected="0"/>
+  <controller name="isDead" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n39_plih" name="n39" src="jfoi8r" fileName="assets/panel.png" xy="-1,0" size="2422,1492" alpha="0.684"/>
+    <component id="n40_h32k" name="btnDeletePlayer" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1973,189">
+      <Button title="delete"/>
+    </component>
+    <component id="n41_h32k" name="btnChangeSeat" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1978,326">
+      <gearDisplay controller="isPlayer" pages="1"/>
+      <Button title="change seat"/>
+    </component>
+    <component id="n42_wu42" name="btnClose" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1970,49">
+      <Button title="close"/>
+    </component>
+    <component id="n43_wu42" name="btnTraveller" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1978,606">
+      <gearDisplay controller="isPlayer" pages="1"/>
+      <gearText controller="isTraveller" pages="0" values="traveller: no" default="traveller: yes"/>
+      <Button title="traveller: no"/>
+    </component>
+    <component id="n44_wu42" name="btnMoveToSeat" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1978,467">
+      <gearDisplay controller="isPlayer" pages="1"/>
+      <Button title="move to seat"/>
+    </component>
+    <component id="n45_wu42" name="btnChangeRole" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="85,84">
+      <Button title="changeRole"/>
+    </component>
+    <component id="n46_wu42" name="player" src="plih5x" fileName="components/Player.xml" xy="483,96"/>
+    <component id="n47_wu42" name="btnAddRemind" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="73,534">
+      <Button title="add remind tokens"/>
+    </component>
+    <component id="n48_oj1u" name="btnAlignment" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1981,748">
+      <gearDisplay controller="isPlayer" pages="1"/>
+      <gearText controller="isGood" pages="0" values="alignment: evil" default="alignment: good"/>
+      <Button title="alignment: evil"/>
+    </component>
+    <component id="n49_oj1u" name="btnDeadVote" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1981,894">
+      <gearDisplay controller="isPlayer" pages="1"/>
+      <gearText controller="hasDeadVote" pages="0" values="deadVote: no" default="deadVote: yes"/>
+      <Button title="deadVote: no"/>
+    </component>
+    <text id="n50_oj1u" name="n50" xy="96,725" size="894,126" fontSize="55" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="Click to remove remind tokens"/>
+    <list id="n51_oj1u" name="lstStates" xy="94,868" size="744,123" scale="2,2" layout="flow_hz" overflow="scroll" defaultItem="ui://mkospyuuplih5w">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n52_mz83" name="txtAbility" xy="936,140" size="892,461" fontSize="70" color="#ffffff" autoSize="shrink" autoClearText="true" text="在场能力：你随时都会死亡"/>
+    <component id="n53_mz83" name="btnDead" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1986,1039">
+      <gearDisplay controller="isPlayer" pages="1"/>
+      <gearText controller="isDead" pages="0" values="alive" default="dead"/>
+      <Button title="alive"/>
+    </component>
+  </displayList>
+</component>

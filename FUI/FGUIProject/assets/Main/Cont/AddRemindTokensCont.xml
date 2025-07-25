@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2422,1492">
+  <displayList>
+    <image id="n39_plih" name="n39" src="jfoi8r" fileName="assets/panel.png" xy="-1,0" size="2422,1492" alpha="0.684"/>
+    <component id="n49_oj1u" name="btnConfirm" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2110,1208" size="240,122">
+      <Button title="confirm"/>
+    </component>
+    <list id="n51_oj1u" name="lstStates" xy="151,129" size="952,580" scale="2,2" layout="flow_hz" overflow="scroll" defaultItem="ui://mkospyuuplih5w">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

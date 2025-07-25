@@ -7,7 +7,7 @@ namespace Main
 {
     public partial class UI_ScriptWin : FairyWindow
     {
-        public GLoader m_bg;
+        public GLoader m_bg1;
         public UI_ScriptCont m_cont;
         public const string URL = "ui://mkospyuu9ckk0";
 
@@ -20,7 +20,7 @@ namespace Main
         {
             base.ConstructFromXML(xml);
 
-            m_bg = (GLoader)GetChildAt(0);
+            m_bg1 = (GLoader)GetChildAt(0);
             m_cont = (UI_ScriptCont)GetChildAt(1);
         }
     }

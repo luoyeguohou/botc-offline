@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	配置文件
+-->
+<config>
+	<client_side output_db="./data/design.db" no_comment="1">
+		<tableinfo default_key="id,idx" invalid_col="index,default">
+			<file name="excel/tip.xlsx">
+				<tipCfg name="tip" firstcol="id" key="id" />
+			</file>
+		</tableinfo>
+	</client_side>
+</config>

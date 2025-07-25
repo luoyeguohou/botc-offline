@@ -5,9 +5,10 @@ using FairyGUI.Utils;
 
 namespace Main
 {
-    public partial class UI_State : GComponent
+    public partial class UI_State : GButton
     {
         public GTextField m_txtCont;
+        public GLoader m_img;
         public const string URL = "ui://mkospyuuplih5w";
 
         public static UI_State CreateInstance()
@@ -19,7 +20,8 @@ namespace Main
         {
             base.ConstructFromXML(xml);
 
-            m_txtCont = (GTextField)GetChildAt(1);
+            m_txtCont = (GTextField)GetChildAt(2);
+            m_img = (GLoader)GetChildAt(3);
         }
     }
 }

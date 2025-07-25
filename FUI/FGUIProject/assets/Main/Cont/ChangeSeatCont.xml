@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <component id="n1_wu42" name="emp" src="ulez5y" fileName="components/Emp.xml" xy="0,0" size="2560,1600"/>
+    <text id="n0_h32k" name="n0" xy="888,662" size="766,155" fontSize="67" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="click to change seat"/>
+  </displayList>
+</component>

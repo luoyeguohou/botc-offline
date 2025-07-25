@@ -4,7 +4,7 @@ using TinyECS;
 
 public class CurrScriptComp : IComponent
 {
-    public string curr;
+    public string curr = "";
 }
 
 public class RolesInPlayComp : IComponent
@@ -16,14 +16,20 @@ public class RolesInPlayComp : IComponent
     public List<string> demonNotInPlay = new();
     public List<string> firstNightOrder = new();
     public List<string> otherNightOrder = new();
+    public List<Player> rolesForTipping = new();
+    public List<string> remindTokens = new();
 }
 
 public class Player
 {
     public string name;
-    public string role;
+    public string role = "";
     public bool dead;
     public List<string> states = new();
+    public bool isTraveller;
+    public bool isGood = true;
+    public bool hasDeadVote = true;
+    public bool isRealPlayer = true;
 }
 
 public class PlayerComp : IComponent

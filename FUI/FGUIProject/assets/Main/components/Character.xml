@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="423,443" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
-  <controller name="inPlay" pages="0,,1," selected="1"/>
+  <controller name="inPlay" pages="0,,1," selected="0"/>
   <displayList>
     <graph id="n8_plih" name="n8" xy="20,50" size="370,370" type="eclipse" lineSize="0">
       <gearDisplay controller="button" pages="1,3"/>
@@ -12,7 +12,7 @@
     <loader id="n4_y7l2" name="img" xy="67,121" size="271,220" url="ui://mkospyuukt9f1x" align="center" vAlign="middle" fill="scale"/>
     <image id="n9_plih" name="n9" src="jfoi8r" fileName="assets/panel.png" xy="15,344" size="789,200" scale="0.5,0.5"/>
     <image id="n11_plih" name="n11" src="jfoi8r" fileName="assets/panel.png" xy="0,0" size="844,281" scale="0.5,0.5"/>
-    <text id="n7_y7l2" name="txtCont" xy="13,14" size="398,116" font="ui://mkospyuukt9f3d" fontSize="47" color="#f0e4bc" align="center" ubb="true" vars="true" autoSize="shrink" text=""/>
+    <text id="n7_y7l2" name="txtCont" xy="15,12" size="398,116" font="ui://mkospyuukt9f3d" fontSize="47" color="#f0e4bc" align="center" ubb="true" vars="true" autoSize="shrink" text=""/>
     <text id="n10_plih" name="txtName" xy="33,360" size="359,71" fontSize="51" color="#f0e4bc" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text=""/>
     <graph id="n12_i3ro" name="n12" xy="52,142" size="308,180" alpha="0.556" type="rect" lineSize="0" fillColor="#ff000000">
       <gearDisplay controller="inPlay" pages="1"/>

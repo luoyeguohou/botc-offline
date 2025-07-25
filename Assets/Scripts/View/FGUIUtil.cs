@@ -50,4 +50,20 @@ public class FGUIUtil
         });
         return tcs.Task;
     }
+
+    public static void ShowMsg(string msg)
+    {
+        try
+        {
+            UI_HintMessage win = (UI_HintMessage)UIPackage.CreateObject("Main", "HintMessage").asCom;
+            win.touchable = false;
+            GRoot.inst.AddChild(win);
+            win.Center();
+            win.Init(msg);
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e);
+        }
+    }
 }

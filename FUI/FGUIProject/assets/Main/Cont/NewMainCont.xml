@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <controller name="state" pages="0,picking script,1,deciding roles,2,playing game" selected="0"/>
+  <controller name="firstNight" homePageType="specific" homePage="1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n53_ulez" name="emp" src="ulez5y" fileName="components/Emp.xml" xy="-4,0" size="2560,1600"/>
+    <list id="n66_f1ty" name="lstTips" xy="18,153" size="912,2632" scale="0.5,0.5" layout="flow_vt" overflow="scroll" scrollBarFlags="384" lineGap="15" defaultItem="ui://mkospyuuplih5x" autoClearItems="true">
+      <gearDisplay controller="state" pages="1,2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n67_f1ty" name="btnAddTip" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="29,1471" size="238,109">
+      <gearDisplay controller="state" pages="1,2"/>
+      <Button title="AddTips" titleFontSize="34"/>
+    </component>
+    <component id="n21_plih" name="btnShowSth" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2227,155" size="298,109">
+      <gearDisplay controller="state" pages="2"/>
+      <Button title="show something" titleFontSize="34"/>
+    </component>
+    <component id="n75_perk" name="btnAddPerson" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2301,36" size="220,109">
+      <Button title="add Person" titleFontSize="34"/>
+    </component>
+    <component id="n76_perk" name="btnPickScript" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2053,38" size="220,109">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="Pick Script" titleFontSize="34"/>
+    </component>
+    <component id="n77_perk" name="btnDrawTokens" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2073,164" size="220,109">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="Draw Tokens" titleFontSize="34"/>
+    </component>
+    <component id="n78_perk" name="btnShuffleRoles" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2078,35" size="220,109">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="Shuffle roles" titleFontSize="34"/>
+    </component>
+    <component id="n79_perk" name="btnNightOrder" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2183,279" size="345,109">
+      <gearDisplay controller="state" pages="2"/>
+      <gearText controller="firstNight" pages="0" values="night order: other night" default="night order: first night"/>
+      <Button title="night order: other night" titleFontSize="34"/>
+    </component>
+    <component id="n80_perk" name="btnPickRoles" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2300,169" size="220,109">
+      <gearDisplay controller="state" pages="1"/>
+      <Button title="Pick Roles" titleFontSize="34"/>
+    </component>
+    <image id="n82_vcll" name="n82" src="jfoi8r" fileName="assets/panel.png" xy="10,12" size="664,136"/>
+    <text id="n81_vcll" name="txtScript" xy="29,40" size="614,83" fontSize="58" color="#ffffff" vars="true" autoSize="none" text="Curr Script:{curr=暗月初生}"/>
+    <list id="n83_wu42" name="lstRoleInPlay" xy="2069,298" size="912,2568" scale="0.5,0.5" layout="flow_vt" overflow="scroll" scrollBarFlags="384" lineGap="15" defaultItem="ui://mkospyuuplih5x" autoClearItems="true">
+      <gearDisplay controller="state" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n84_wu42" name="lstNightOrder" xy="2258,412" size="576,2320" scale="0.5,0.5" overflow="scroll" scrollBarFlags="128" lineGap="15" defaultItem="ui://mkospyuuplih5x" autoClearItems="true">
+      <gearDisplay controller="state" pages="2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n86_oj1u" name="btnBackToLastGame" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1744,42" size="276,109">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="back to last game" titleFontSize="35"/>
+    </component>
+    <loader id="n87_qm72" name="btnChinese" xy="2300,1414" size="207,167" url="ui://mkospyuukm2n8t">
+      <gearDisplay controller="state" pages="0"/>
+    </loader>
+    <loader id="n88_qm72" name="btnEnglish" xy="2067,1414" size="207,167" url="ui://mkospyuukm2n8s">
+      <gearDisplay controller="state" pages="0"/>
+    </loader>
+  </displayList>
+</component>

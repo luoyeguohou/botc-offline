@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2362,1318">
+  <displayList>
+    <list id="n22_w7dk" name="n22" xy="235,176" size="2119,442" layout="row" overflow="scroll" defaultItem="ui://mkospyuuy7l25" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n23_w7dk" name="n23" xy="248,638" size="2106,442" layout="row" overflow="scroll" defaultItem="ui://mkospyuuy7l25" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n24_w7dk" name="n24" xy="13,329" size="215,214" fontSize="70" color="#ffffff" autoSize="none" text="first night"/>
+    <text id="n25_w7dk" name="n25" xy="10,762" size="215,214" fontSize="70" color="#ffffff" autoSize="none" text="other night"/>
+    <component id="n26_w7dk" name="btnFirstLeft" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="817,23">
+      <Button title="&lt;="/>
+    </component>
+    <component id="n27_w7dk" name="btnFirstRight" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1197,23">
+      <Button title="=&gt;"/>
+    </component>
+    <component id="n28_w7dk" name="btnFirstAdd" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1577,23">
+      <Button title="add"/>
+    </component>
+    <component id="n33_w7dk" name="btnFirstDelete" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1957,23">
+      <Button title="delete"/>
+    </component>
+    <component id="n34_w7dk" name="btnOtherLeft" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="818,1125">
+      <Button title="&lt;="/>
+    </component>
+    <component id="n35_w7dk" name="btnOtherRight" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1194,1125">
+      <Button title="=&gt;"/>
+    </component>
+    <component id="n36_w7dk" name="btnOtherAdd" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1578,1125">
+      <Button title="add"/>
+    </component>
+    <component id="n37_w7dk" name="btnOtherDelete" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1958,1125">
+      <Button title="delete"/>
+    </component>
+    <component id="n38_w7dk" name="btnFirstInsert" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="429,20">
+      <Button title="insert"/>
+    </component>
+    <text id="n39_w7dk" name="txtFirstText" xy="46,20" size="346,153" fontSize="45" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="" input="true" prompt="input index here......"/>
+    <text id="n40_w7dk" name="txtOtherText" xy="38,1101" size="346,153" fontSize="45" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="" input="true" prompt="input index here......"/>
+    <component id="n41_w7dk" name="btnOtherInsert" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="431,1126">
+      <Button title="insert"/>
+    </component>
+  </displayList>
+</component>

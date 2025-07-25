@@ -7,7 +7,7 @@ namespace Main
 {
     public partial class UI_ChooseWhoDrawFirstWin : FairyWindow
     {
-        public GLoader m_bg;
+        public GLoader m_bg1;
         public UI_ChooseWhoDrawFirstCont m_cont;
         public const string URL = "ui://mkospyuuspc15s";
 
@@ -20,7 +20,7 @@ namespace Main
         {
             base.ConstructFromXML(xml);
 
-            m_bg = (GLoader)GetChildAt(0);
+            m_bg1 = (GLoader)GetChildAt(0);
             m_cont = (UI_ChooseWhoDrawFirstCont)GetChildAt(1);
         }
     }

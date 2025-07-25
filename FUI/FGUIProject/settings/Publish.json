@@ -1,5 +1,5 @@
 {
-  "path": "C:\\projects\\botc\\Assets\\Resources\\UI",
+  "path": "C:\\projects\\botc-offline\\Assets\\Resources\\UI",
   "branchPath": "",
   "fileExtension": "bytes",
   "packageCount": 2,
@@ -9,7 +9,7 @@
   "compressPNG": false,
   "codeGeneration": {
     "allowGenCode": true,
-    "codePath": "C:\\projects\\botc\\Assets\\Scripts\\UI",
+    "codePath": "C:\\projects\\botc-offline\\Assets\\Scripts\\UI",
     "classNamePrefix": "UI_",
     "memberNamePrefix": "m_",
     "packageName": null,

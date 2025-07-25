@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Main/Cont/AddRemindTokensCont.xml -->
+  <string name="mkospyuuoj1u9e-n49_oj1u" mz="btnConfirm">确认</string>
+  <!-- Main/Cont/ChangeSeatCont.xml -->
+  <string name="mkospyuuh32k98-n0_h32k" mz="n0">点击 交换位置</string>
+  <!-- Main/Cont/ChooseWhoDrawFirstCont.xml -->
+  <string name="mkospyuugxos8i-n13_ivx2" mz="btnDirection">方向 顺时针</string>
+  <string name="mkospyuugxos8i-n13_ivx2-texts_0" mz="btnDirection">方向 顺时针</string>
+  <string name="mkospyuugxos8i-n13_ivx2-texts_1" mz="btnDirection">方向 逆时针</string>
+  <string name="mkospyuugxos8i-n16_plih" mz="n16">从谁开始</string>
+  <string name="mkospyuugxos8i-n17_plih" mz="btnStart">开始</string>
+  <!-- Main/Cont/CreateScriptCont.xml -->
+  <string name="mkospyuuvcll94-n10_gxos" mz="btnBack">后退</string>
+  <string name="mkospyuuvcll94-n11_gxos-prompt" mz="txtScriptName">输入剧本名字.....</string>
+  <string name="mkospyuuvcll94-n13_gxos" mz="btnConfirm">确认</string>
+  <!-- Main/Cont/DealWithPlayerCont.xml -->
+  <string name="mkospyuuh32k95-n40_h32k" mz="btnDeletePlayer">删除</string>
+  <string name="mkospyuuh32k95-n41_h32k" mz="btnChangeSeat">交换座位</string>
+  <string name="mkospyuuh32k95-n42_wu42" mz="btnClose">关闭</string>
+  <string name="mkospyuuh32k95-n43_wu42" mz="btnTraveller">不是旅行者</string>
+  <string name="mkospyuuh32k95-n43_wu42-texts_0" mz="btnTraveller">不是旅行者</string>
+  <string name="mkospyuuh32k95-n43_wu42-texts_def" mz="btnTraveller">是旅行者</string>
+  <string name="mkospyuuh32k95-n44_wu42" mz="btnMoveToSeat">插入座位</string>
+  <string name="mkospyuuh32k95-n45_wu42" mz="btnChangeRole">换角色</string>
+  <string name="mkospyuuh32k95-n47_wu42" mz="btnAddRemind">增加提示token</string>
+  <string name="mkospyuuh32k95-n48_oj1u" mz="btnAlignment">阵营 邪恶</string>
+  <string name="mkospyuuh32k95-n48_oj1u-texts_0" mz="btnAlignment">阵营 邪恶</string>
+  <string name="mkospyuuh32k95-n48_oj1u-texts_def" mz="btnAlignment">阵营 好人</string>
+  <string name="mkospyuuh32k95-n49_oj1u" mz="btnDeadVote">失去死亡投票</string>
+  <string name="mkospyuuh32k95-n49_oj1u-texts_0" mz="btnDeadVote">失去死亡投票</string>
+  <string name="mkospyuuh32k95-n49_oj1u-texts_def" mz="btnDeadVote">拥有死亡投票</string>
+  <string name="mkospyuuh32k95-n50_oj1u" mz="n50">点击 token 去移除这个token</string>
+  <string name="mkospyuuh32k95-n53_mz83" mz="btnDead">存活</string>
+  <string name="mkospyuuh32k95-n53_mz83-texts_0" mz="btnDead">存活</string>
+  <string name="mkospyuuh32k95-n53_mz83-texts_def" mz="btnDead">死亡</string>
+  <!-- Main/Cont/DrawingCont.xml -->
+  <string name="mkospyuugxos8j-n12_spc1" mz="txtTitle">当你看完你的角色，确保你点击完成再传给下一个人。</string>
+  <string name="mkospyuugxos8j-n12_spc1-texts_0" mz="txtTitle">你是 {name=Roy} 吗? 如果你是 {name2=Roy} 点击查看按钮 查看你的角色</string>
+  <string name="mkospyuugxos8j-n12_spc1-texts_1" mz="txtTitle">把设备还给说书人
+不要点击开始游戏按钮!!!</string>
+  <string name="mkospyuugxos8j-n12_spc1-texts_def" mz="txtTitle">当你看完你的角色，确保你点击完成再传给下一个人。</string>
+  <string name="mkospyuugxos8j-n13_ivx2" mz="btnLook">查看</string>
+  <string name="mkospyuugxos8j-n14_ivx2" mz="btnFinish">完成</string>
+  <string name="mkospyuugxos8j-n19_plih" mz="txtCont">{name=Poisoner}
+{cont=Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if &amp; only if they die.}</string>
+  <string name="mkospyuugxos8j-n20_plih" mz="btnStartGame">开始游戏</string>
+  <!-- Main/Cont/NewMainCont.xml -->
+  <string name="mkospyuua48c92-n67_f1ty" mz="btnAddTip">增加提示角色</string>
+  <string name="mkospyuua48c92-n21_plih" mz="btnShowSth">展示文本</string>
+  <string name="mkospyuua48c92-n75_perk" mz="btnAddPerson">增加玩家</string>
+  <string name="mkospyuua48c92-n76_perk" mz="btnPickScript">选择剧本</string>
+  <string name="mkospyuua48c92-n77_perk" mz="btnDrawTokens">抽角色</string>
+  <string name="mkospyuua48c92-n78_perk" mz="btnShuffleRoles">随机分配角色</string>
+  <string name="mkospyuua48c92-n79_perk" mz="btnNightOrder">夜晚顺序: 非首夜</string>
+  <string name="mkospyuua48c92-n79_perk-texts_0" mz="btnNightOrder">夜晚顺序: 非首夜</string>
+  <string name="mkospyuua48c92-n79_perk-texts_def" mz="btnNightOrder">夜晚顺序: 首夜</string>
+  <string name="mkospyuua48c92-n80_perk" mz="btnPickRoles">选择使用哪些角色</string>
+  <string name="mkospyuua48c92-n81_vcll" mz="txtScript">当前剧本:{curr=暗月初生}</string>
+  <string name="mkospyuua48c92-n86_oj1u" mz="btnBackToLastGame">读取上个游戏</string>
+  <!-- Main/Cont/PutCharacterCont.xml -->
+  <string name="mkospyuugxos8l-n8_kt9f" mz="txtTitle">应该有 {num1=1} 个镇民，  {num2=1} 个外来者，
+{num3=1} 个爪牙， {num4=1} 个恶魔。</string>
+  <string name="mkospyuugxos8l-n18_ulez" mz="btnFinish">完毕</string>
+  <string name="mkospyuugxos8l-n10_spc1" mz="btnTownsfolk">增加 1 个随机镇民</string>
+  <string name="mkospyuugxos8l-n11_spc1" mz="btnOutsider">增加 1 个随机外来者</string>
+  <string name="mkospyuugxos8l-n12_spc1" mz="btnMinion">增加 1 个随机爪牙</string>
+  <string name="mkospyuugxos8l-n13_spc1" mz="btnDemon">增加 1 个随机恶魔</string>
+  <string name="mkospyuugxos8l-n14_spc1" mz="btnSpecific">增加 1 个特定角色</string>
+  <string name="mkospyuugxos8l-n17_pa1f" mz="btnConfirm">确认</string>
+  <!-- Main/Cont/ScriptCont.xml -->
+  <string name="mkospyuugxos8n-n17_vcll" mz="btnClose">关闭</string>
+  <string name="mkospyuugxos8n-n16_vcll" mz="btnFromJson">从 Json 数据里读取</string>
+  <string name="mkospyuugxos8n-n8_gxos" mz="btnCreateScript">创建新剧本</string>
+  <!-- Main/Cont/ShowSomethingCont.xml -->
+  <string name="mkospyuuwu429d-n28_plih-prompt" mz="txtText">输入文字.......</string>
+  <string name="mkospyuuwu429d-n36_plih" mz="btnFinish">完成</string>
+  <string name="mkospyuuwu429d-n63_gxos" mz="btnAddCahracter">增加提示角色</string>
+  <string name="mkospyuuwu429d-n64_gxos" mz="btnMinusCahracter">减少提示角色</string>
+  <string name="mkospyuuwu429d-n38_plih" mz="btnSelectWords">选择文本</string>
+  <string name="mkospyuuwu429d-n69_wu42" mz="btnConfirm">确定</string>
+  <!-- Main/components/ButtonNormal.xml -->
+  <string name="mkospyuukt9f5n-n3_kt9f" mz="title">这个</string>
+  <!-- Main/components/Character.xml -->
+  <string name="mkospyuuy7l25-n13_i3ro" mz="n13">在场</string>
+  <!-- Main/components/Player.xml -->
+  <string name="mkospyuuplih5x-n26_plih-prompt" mz="txtInputName">输入玩家名字......</string>
+  <string name="mkospyuuplih5x-n38_plih" mz="txtCharacter">Poisoner</string>
+  <!-- Main/components/ScriptItem.xml -->
+  <string name="mkospyuukt9f5o-n5_kt9f" mz="txtName">TB</string>
+  <string name="mkospyuukt9f5o-n7_gxos" mz="btnEdit">编辑</string>
+  <string name="mkospyuukt9f5o-n8_gxos" mz="btnDelete">删除</string>
+</resources>

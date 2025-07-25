@@ -13,6 +13,9 @@ public class World
         e.sharedConfig.AddComp(new NameComp());
 
         //// add system
-        //e.AddSystem(new CardSys());
+        e.AddSystem(new ScriptSys());
+        e.AddSystem(new PlayerSys());
+        e.AddSystem(new RoleSys());
+        e.AddSystem(new GameSys());
     }
 }

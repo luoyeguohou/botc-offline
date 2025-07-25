@@ -15,9 +15,12 @@ namespace Main {
         public void Init()
         {
             PlayerComp pComp = World.e.sharedConfig.GetComp<PlayerComp>();
-            string[] names = new string[pComp.players.Count];
-            for (int i = 0; i < names.Length; i++) {
-                names[i] = pComp.players[i].name;
+            string[] names = new string[Util.Count(pComp.players,p=>!p.isTraveller)];
+            int currIdx = 0;
+            foreach (var player in pComp.players)
+            {
+                if (player.isTraveller) continue;
+                names[currIdx++] = player.name;
             }
             m_cont.m_comboBox.items = names;
             m_cont.m_comboBox.ApplyListChange();
@@ -28,9 +31,6 @@ namespace Main {
         }
 
         private void NextStep() { 
-            // shuffle roles
-            RolesInPlayComp ripComp = World.e.sharedConfig.GetComp<RolesInPlayComp>();
-            Util.Shuffle(ripComp.roles, new System.Random());
             // set roles
             PlayerComp pComp = World.e.sharedConfig.GetComp<PlayerComp>();
             pComp.howMangDrawed = 0;
@@ -40,7 +40,6 @@ namespace Main {
                     pComp.drawingFromIdx = i;
                 }
             }
-            // next window
             FGUIUtil.CreateWindow<UI_DrawingWin>("DrawingWin").Init();
             Dispose();
         }

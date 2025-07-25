@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <loader id="n0_wu42" name="bg1" xy="0,0" size="2560,1600" url="ui://mkospyuuy7l23" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n1_wu42" name="cont" src="wu429b" fileName="Cont/PickRoleCont.xml" xy="298,216"/>
+  </displayList>
+</component>

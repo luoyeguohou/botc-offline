@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Main/Cont/AddRemindTokensCont.xml -->
+  <string name="mkospyuuoj1u9e-n49_oj1u" mz="btnConfirm">confirm</string>
+  <!-- Main/Cont/ChangeSeatCont.xml -->
+  <string name="mkospyuuh32k98-n0_h32k" mz="n0">click to change seat</string>
+  <!-- Main/Cont/ChooseWhoDrawFirstCont.xml -->
+  <string name="mkospyuugxos8i-n13_ivx2" mz="btnDirection">Direction Clockwise</string>
+  <string name="mkospyuugxos8i-n13_ivx2-texts_0" mz="btnDirection">Direction Clockwise</string>
+  <string name="mkospyuugxos8i-n13_ivx2-texts_1" mz="btnDirection">Direction Counterclockwise</string>
+  <string name="mkospyuugxos8i-n16_plih" mz="n16">Start with</string>
+  <string name="mkospyuugxos8i-n17_plih" mz="btnStart">Start</string>
+  <!-- Main/Cont/CreateScriptCont.xml -->
+  <string name="mkospyuuvcll94-n10_gxos" mz="btnBack">Back</string>
+  <string name="mkospyuuvcll94-n11_gxos-prompt" mz="txtScriptName">Put name here...........</string>
+  <string name="mkospyuuvcll94-n13_gxos" mz="btnConfirm">Confirm</string>
+  <!-- Main/Cont/DealWithPlayerCont.xml -->
+  <string name="mkospyuuh32k95-n40_h32k" mz="btnDeletePlayer">delete</string>
+  <string name="mkospyuuh32k95-n41_h32k" mz="btnChangeSeat">change seat</string>
+  <string name="mkospyuuh32k95-n42_wu42" mz="btnClose">close</string>
+  <string name="mkospyuuh32k95-n43_wu42" mz="btnTraveller">traveller: no</string>
+  <string name="mkospyuuh32k95-n43_wu42-texts_0" mz="btnTraveller">traveller: no</string>
+  <string name="mkospyuuh32k95-n43_wu42-texts_def" mz="btnTraveller">traveller: yes</string>
+  <string name="mkospyuuh32k95-n44_wu42" mz="btnMoveToSeat">move to seat</string>
+  <string name="mkospyuuh32k95-n45_wu42" mz="btnChangeRole">changeRole</string>
+  <string name="mkospyuuh32k95-n47_wu42" mz="btnAddRemind">add remind tokens</string>
+  <string name="mkospyuuh32k95-n48_oj1u" mz="btnAlignment">alignment: evil</string>
+  <string name="mkospyuuh32k95-n48_oj1u-texts_0" mz="btnAlignment">alignment: evil</string>
+  <string name="mkospyuuh32k95-n48_oj1u-texts_def" mz="btnAlignment">alignment: good</string>
+  <string name="mkospyuuh32k95-n49_oj1u" mz="btnDeadVote">deadVote: no</string>
+  <string name="mkospyuuh32k95-n49_oj1u-texts_0" mz="btnDeadVote">deadVote: no</string>
+  <string name="mkospyuuh32k95-n49_oj1u-texts_def" mz="btnDeadVote">deadVote: yes</string>
+  <string name="mkospyuuh32k95-n50_oj1u" mz="n50">Click to remove remind tokens</string>
+  <string name="mkospyuuh32k95-n53_mz83" mz="btnDead">alive</string>
+  <string name="mkospyuuh32k95-n53_mz83-texts_0" mz="btnDead">alive</string>
+  <string name="mkospyuuh32k95-n53_mz83-texts_def" mz="btnDead">dead</string>
+  <!-- Main/Cont/DrawingCont.xml -->
+  <string name="mkospyuugxos8j-n12_spc1" mz="txtTitle">When you finish ,make sure you press finish button before passing to next one.</string>
+  <string name="mkospyuugxos8j-n12_spc1-texts_0" mz="txtTitle">Are you {name=Roy} ? If you are {name2=Roy} look the character</string>
+  <string name="mkospyuugxos8j-n12_spc1-texts_1" mz="txtTitle">Give it back to the storyteller.
+Do not press start game button!!!</string>
+  <string name="mkospyuugxos8j-n12_spc1-texts_def" mz="txtTitle">When you finish ,make sure you press finish button before passing to next one.</string>
+  <string name="mkospyuugxos8j-n13_ivx2" mz="btnLook">Look</string>
+  <string name="mkospyuugxos8j-n14_ivx2" mz="btnFinish">Finish</string>
+  <string name="mkospyuugxos8j-n19_plih" mz="txtCont">{name=Poisoner}
+{cont=Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if &amp; only if they die.}</string>
+  <string name="mkospyuugxos8j-n20_plih" mz="btnStartGame">StartGame</string>
+  <!-- Main/Cont/NewMainCont.xml -->
+  <string name="mkospyuua48c92-n67_f1ty" mz="btnAddTip">AddTips</string>
+  <string name="mkospyuua48c92-n21_plih" mz="btnShowSth">show something</string>
+  <string name="mkospyuua48c92-n75_perk" mz="btnAddPerson">add Person</string>
+  <string name="mkospyuua48c92-n76_perk" mz="btnPickScript">Pick Script</string>
+  <string name="mkospyuua48c92-n77_perk" mz="btnDrawTokens">Draw Tokens</string>
+  <string name="mkospyuua48c92-n78_perk" mz="btnShuffleRoles">Shuffle roles</string>
+  <string name="mkospyuua48c92-n79_perk" mz="btnNightOrder">night order: other night</string>
+  <string name="mkospyuua48c92-n79_perk-texts_0" mz="btnNightOrder">night order: other night</string>
+  <string name="mkospyuua48c92-n79_perk-texts_def" mz="btnNightOrder">night order: first night</string>
+  <string name="mkospyuua48c92-n80_perk" mz="btnPickRoles">Pick Roles</string>
+  <string name="mkospyuua48c92-n81_vcll" mz="txtScript">Curr Script:{curr=暗月初生}</string>
+  <string name="mkospyuua48c92-n86_oj1u" mz="btnBackToLastGame">back to last game</string>
+  <!-- Main/Cont/PutCharacterCont.xml -->
+  <string name="mkospyuugxos8l-n8_kt9f" mz="txtTitle">There should be {num1=1} townsforks  {num2=1} outsiders 
+{num3=1} minions {num4=1} demon.</string>
+  <string name="mkospyuugxos8l-n18_ulez" mz="btnFinish">Finish</string>
+  <string name="mkospyuugxos8l-n10_spc1" mz="btnTownsfolk">Add 1 random townsfork</string>
+  <string name="mkospyuugxos8l-n11_spc1" mz="btnOutsider">Add 1 random outsider</string>
+  <string name="mkospyuugxos8l-n12_spc1" mz="btnMinion">Add 1 random minion</string>
+  <string name="mkospyuugxos8l-n13_spc1" mz="btnDemon">Add 1 random demon</string>
+  <string name="mkospyuugxos8l-n14_spc1" mz="btnSpecific">Add 1 specific</string>
+  <string name="mkospyuugxos8l-n17_pa1f" mz="btnConfirm">confirm</string>
+  <!-- Main/Cont/ScriptCont.xml -->
+  <string name="mkospyuugxos8n-n17_vcll" mz="btnClose">Close</string>
+  <string name="mkospyuugxos8n-n16_vcll" mz="btnFromJson">From Json</string>
+  <string name="mkospyuugxos8n-n8_gxos" mz="btnCreateScript">Create Script</string>
+  <!-- Main/Cont/ShowSomethingCont.xml -->
+  <string name="mkospyuuwu429d-n28_plih-prompt" mz="txtText">Input Text.......</string>
+  <string name="mkospyuuwu429d-n36_plih" mz="btnFinish">Finish</string>
+  <string name="mkospyuuwu429d-n63_gxos" mz="btnAddCahracter">+character</string>
+  <string name="mkospyuuwu429d-n64_gxos" mz="btnMinusCahracter">-character</string>
+  <string name="mkospyuuwu429d-n38_plih" mz="btnSelectWords">Select Words</string>
+  <string name="mkospyuuwu429d-n69_wu42" mz="btnConfirm">confirm</string>
+  <!-- Main/components/ButtonNormal.xml -->
+  <string name="mkospyuukt9f5n-n3_kt9f" mz="title">This</string>
+  <!-- Main/components/Character.xml -->
+  <string name="mkospyuuy7l25-n13_i3ro" mz="n13">in play</string>
+  <!-- Main/components/Player.xml -->
+  <string name="mkospyuuplih5x-n26_plih-prompt" mz="txtInputName">input name here......</string>
+  <string name="mkospyuuplih5x-n38_plih" mz="txtCharacter">Poisoner</string>
+  <!-- Main/components/ScriptItem.xml -->
+  <string name="mkospyuukt9f5o-n5_kt9f" mz="txtName">TB</string>
+  <string name="mkospyuukt9f5o-n7_gxos" mz="btnEdit">edit</string>
+  <string name="mkospyuukt9f5o-n8_gxos" mz="btnDelete">Delete</string>
+</resources>

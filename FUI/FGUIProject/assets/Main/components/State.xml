@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="124,124">
+<component size="124,124" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectOver" selected="0"/>
   <displayList>
-    <graph id="n31_plih" name="n31" xy="0,0" size="124,124" type="rect" fillColor="#ff000000" corner="15"/>
-    <text id="n35_plih" name="txtCont" xy="0,0" size="125,125" fontSize="68" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="washerwomen&apos;s &#xA;townsflok"/>
+    <graph id="n37_km2n" name="n37" xy="0,0" size="124,124" type="rect" corner="15">
+      <gearDisplay controller="button" pages="1,2,3"/>
+    </graph>
+    <graph id="n31_plih" name="n31" xy="2,2" size="120,120" alpha="0.58" type="rect" fillColor="#ff000000" corner="15"/>
+    <text id="n35_plih" name="txtCont" xy="7,43" size="112,79" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="washesaddhasjfhaskj"/>
+    <loader id="n36_emks" name="img" xy="14,1" size="97,61" url="ui://mkospyuukt9f3g" align="center" vAlign="middle" fill="scale"/>
   </displayList>
+  <Button mode="Radio"/>
 </component>

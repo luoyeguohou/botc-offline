@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <loader id="n21_gxos" name="bg1" xy="0,0" size="2560,1600" url="ui://mkospyuuy7l23" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n22_w7dk" name="cont" src="w7dk9k" fileName="Cont/NIghtOrderCont.xml" xy="95,191">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

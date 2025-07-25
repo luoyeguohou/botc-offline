@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="2560,1600">
-  <controller name="createScript" pages="0,,1," selected="1"/>
   <displayList>
-    <list id="n7_kt9f" name="lstScripts" xy="92,129" size="2403,1037" layout="flow_hz" overflow="scroll" lineGap="132" colGap="155" defaultItem="ui://mkospyuukt9f5o" autoClearItems="true">
+    <component id="n17_vcll" name="btnClose" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2221,67" size="318,150">
+      <Button title="Close"/>
+    </component>
+    <component id="n16_vcll" name="btnFromJson" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1506,73" size="318,150">
+      <Button title="From Json"/>
+    </component>
+    <list id="n7_kt9f" name="lstScripts" xy="109,327" size="2403,1037" layout="flow_hz" overflow="scroll" lineGap="132" colGap="155" defaultItem="ui://mkospyuukt9f5o" autoClearItems="true">
       <item/>
       <item/>
       <item/>
@@ -22,42 +27,8 @@
       <item/>
       <item/>
     </list>
-    <component id="n8_gxos" name="btnCreateScript" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2134,1353" size="318,150">
+    <component id="n8_gxos" name="btnCreateScript" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1869,73" size="318,150">
       <Button title="Create Script"/>
-    </component>
-    <image id="n9_gxos" name="n9" src="jfoi8r" fileName="assets/panel.png" xy="72,54" size="2440,1517" alpha="0.76">
-      <gearDisplay controller="createScript" pages="1"/>
-    </image>
-    <component id="n10_gxos" name="btnBack1" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="2310,101" size="165,150">
-      <gearDisplay controller="createScript" pages="1"/>
-      <Button title="Back"/>
-    </component>
-    <text id="n11_gxos" name="txtScriptName" xy="341,128" size="1614,134" fontSize="89" color="#f0e4bc" vAlign="middle" autoSize="none" text="" input="true" prompt="Put name here...........">
-      <gearDisplay controller="createScript" pages="1"/>
-    </text>
-    <list id="n12_gxos" name="lstCharacter" xy="140,305" size="2143,1199" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" defaultItem="ui://mkospyuuy7l25">
-      <gearDisplay controller="createScript" pages="1"/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-    </list>
-    <component id="n13_gxos" name="btnConfirm" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1981,100" size="286,150">
-      <gearDisplay controller="createScript" pages="1"/>
-      <Button title="Confirm"/>
     </component>
   </displayList>
 </component>

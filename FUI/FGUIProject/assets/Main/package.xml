@@ -116,7 +116,7 @@
     <image id="kt9f3a" name="tb.png" path="/assets/editions/" exported="true"/>
     <font id="kt9f3c" name="papyrus.ttf" path="/assets/fonts/" renderMode="" samplePointSize="16"/>
     <font id="kt9f3d" name="piratesbay.ttf" path="/assets/fonts/" renderMode="" samplePointSize="16"/>
-    <image id="kt9f3e" name="acrobat.png" path="/assets/icons/" exported="true"/>
+    <image id="kt9f3e" name="acrobat.png" path="/assets/icons/" exported="true" scale9grid="0,0,-85,-124"/>
     <image id="kt9f3f" name="alchemist.png" path="/assets/icons/" exported="true" scale9grid="0,0,-296,-213"/>
     <image id="kt9f3g" name="alhadikhia.png" path="/assets/icons/" exported="true" scale9grid="0,0,-212,-213"/>
     <image id="kt9f3h" name="amnesiac.png" path="/assets/icons/" exported="true" scale9grid="0,0,-283,-204"/>
@@ -147,7 +147,7 @@
     <image id="kt9f46" name="vote.png" path="/assets/"/>
     <image id="kt9f47" name="bmr-demon.png" path="/assets/editions/" exported="true"/>
     <image id="kt9f48" name="apprentice.png" path="/assets/icons/" exported="true" scale9grid="0,0,-190,-219"/>
-    <image id="kt9f49" name="zombuul.png" path="/assets/icons/" exported="true" scale9grid="0,0,-167,-222"/>
+    <image id="kt9f49" name="zombuul.png" path="/assets/icons/" exported="true" scale9grid="0,0,-233,-329"/>
     <image id="kt9f4a" name="artist.png" path="/assets/icons/" exported="true" scale9grid="0,0,-233,-209"/>
     <image id="kt9f4b" name="atheist.png" path="/assets/icons/" exported="true" scale9grid="0,0,-100,-288"/>
     <image id="kt9f4c" name="devilsadvocate.png" path="/assets/icons/" exported="true"/>
@@ -199,11 +199,9 @@
     <sound id="kt9f5m" name="countdown.mp3" path="/assets/sounds/"/>
     <component id="kt9f5n" name="ButtonNormal.xml" path="/components/"/>
     <component id="kt9f5o" name="ScriptItem.xml" path="/components/"/>
-    <component id="kt9f5p" name="PutPlayNameWin.xml" path="/" exported="true"/>
     <component id="kt9f5r" name="PutCharacterWin.xml" path="/" exported="true"/>
     <component id="spc15s" name="ChooseWhoDrawFirstWin.xml" path="/" exported="true"/>
     <component id="ivx25u" name="DrawingWin.xml" path="/" exported="true"/>
-    <component id="pa1f5v" name="MainWin.xml" path="/" exported="true"/>
     <component id="plih5w" name="State.xml" path="/components/"/>
     <component id="plih5x" name="Player.xml" path="/components/" exported="true"/>
     <component id="ulez5y" name="Emp.xml" path="/components/"/>
@@ -298,14 +296,40 @@
     <component id="gxos8g" name="NameAndDelete.xml" path="/components/"/>
     <component id="gxos8i" name="ChooseWhoDrawFirstCont.xml" path="/Cont/"/>
     <component id="gxos8j" name="DrawingCont.xml" path="/Cont/"/>
-    <component id="gxos8k" name="MainCont.xml" path="/Cont/"/>
     <component id="gxos8l" name="PutCharacterCont.xml" path="/Cont/"/>
-    <component id="gxos8m" name="PutPlayerNameCont.xml" path="/Cont/"/>
     <component id="gxos8n" name="ScriptCont.xml" path="/Cont/"/>
-    <component id="jfoi8o" name="Test.xml" path="/Cont/"/>
     <image id="jfoi8p" name="popup.png" path="/assets/" scale="9grid" scale9grid="119,37,238,19"/>
     <image id="jfoi8q" name="button.png" path="/assets/" scale="9grid" scale9grid="23,24,429,109"/>
     <image id="jfoi8r" name="panel.png" path="/assets/" scale="9grid" scale9grid="37,42,543,649"/>
+    <image id="km2n8s" name="english.png" path="/assets/"/>
+    <image id="km2n8t" name="chinese.png" path="/assets/"/>
+    <image id="r83h8u" name="princess.png" path="/assets/icons/" exported="true"/>
+    <image id="r83h8v" name="bootlegger.png" path="/assets/icons/" exported="true"/>
+    <image id="r83h8w" name="deusexfiasco_new.png" path="/assets/icons/" exported="true"/>
+    <image id="r83h8x" name="ferryman.png" path="/assets/icons/" exported="true"/>
+    <image id="r83h8y" name="gardener.png" path="/assets/icons/" exported="true"/>
+    <image id="r83h8z" name="gnome.png" path="/assets/icons/" exported="true"/>
+    <image id="r83h90" name="demons.png" path="/assets/icons/" exported="true"/>
+    <component id="perk91" name="NewMainWin.xml" path="/" exported="true"/>
+    <component id="a48c92" name="NewMainCont.xml" path="/Cont/"/>
+    <component id="vcll93" name="CreateScriptWin.xml" path="/" exported="true"/>
+    <component id="vcll94" name="CreateScriptCont.xml" path="/Cont/"/>
+    <component id="h32k95" name="DealWithPlayerCont.xml" path="/Cont/"/>
+    <component id="h32k96" name="DealWithPlayerWin.xml" path="/" exported="true"/>
+    <component id="h32k97" name="ChangeSeatWin.xml" path="/" exported="true"/>
+    <component id="h32k98" name="ChangeSeatCont.xml" path="/Cont/"/>
+    <component id="wu4299" name="BtnCircle.xml" path="/components/" exported="true"/>
+    <component id="wu429a" name="PickRoleWin.xml" path="/" exported="true"/>
+    <component id="wu429b" name="PickRoleCont.xml" path="/Cont/"/>
+    <component id="wu429c" name="ShowSomethingWin.xml" path="/" exported="true"/>
+    <component id="wu429d" name="ShowSomethingCont.xml" path="/Cont/"/>
+    <component id="oj1u9e" name="AddRemindTokensCont.xml" path="/Cont/"/>
+    <component id="oj1u9f" name="AddRemindTokensWin.xml" path="/" exported="true"/>
+    <component id="oj1u9g" name="HintMessage.xml" path="/" exported="true"/>
+    <image id="qm729h" name="wraith.png" path="/assets/icons/" exported="true" scale9grid="0,0,-177,-237"/>
+    <image id="qm729i" name="princess(1).png" path="/assets/icons/" exported="true" scale9grid="0,0,-182,-336"/>
+    <component id="w7dk9j" name="NightOrderWin.xml" path="/" exported="true"/>
+    <component id="w7dk9k" name="NIghtOrderCont.xml" path="/Cont/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

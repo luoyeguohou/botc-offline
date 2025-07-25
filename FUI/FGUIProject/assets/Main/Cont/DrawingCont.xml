@@ -8,13 +8,11 @@
     </text>
     <component id="n13_ivx2" name="btnLook" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="907,548" size="594,133">
       <gearDisplay controller="state" pages="0"/>
-      <gearText controller="state" pages="0,1" values="Look|Direction:Down" default=""/>
-      <Button title="Direction:Down" titleFontSize="77"/>
+      <Button title="Look" titleFontSize="77"/>
     </component>
     <component id="n14_ivx2" name="btnFinish" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1020,1265" size="594,133">
       <gearDisplay controller="state" pages="1"/>
-      <gearText controller="state" pages="0,1" values="Look|finish" default=""/>
-      <Button title="finish" titleFontSize="77"/>
+      <Button title="Finish" titleFontSize="77"/>
     </component>
     <image id="n16_plih" name="n16" src="kt9f45" fileName="assets/token.png" xy="374,585">
       <gearDisplay controller="state" pages="1"/>

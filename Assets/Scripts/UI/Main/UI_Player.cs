@@ -7,13 +7,16 @@ namespace Main
 {
     public partial class UI_Player : GComponent
     {
-        public Controller m_state;
         public Controller m_dead;
+        public Controller m_hasRole;
+        public Controller m_outline;
+        public Controller m_isRealPlayer;
+        public Controller m_hasDeadVote;
+        public Controller m_isGood;
         public GLoader m_img;
         public GTextInput m_txtInputName;
         public GTextInput m_txtCharacter;
         public GList m_lstState;
-        public GTextField m_txtName;
         public const string URL = "ui://mkospyuuplih5x";
 
         public static UI_Player CreateInstance()
@@ -25,13 +28,16 @@ namespace Main
         {
             base.ConstructFromXML(xml);
 
-            m_state = GetControllerAt(0);
-            m_dead = GetControllerAt(1);
-            m_img = (GLoader)GetChildAt(1);
-            m_txtInputName = (GTextInput)GetChildAt(4);
-            m_txtCharacter = (GTextInput)GetChildAt(6);
-            m_lstState = (GList)GetChildAt(7);
-            m_txtName = (GTextField)GetChildAt(8);
+            m_dead = GetControllerAt(0);
+            m_hasRole = GetControllerAt(1);
+            m_outline = GetControllerAt(2);
+            m_isRealPlayer = GetControllerAt(3);
+            m_hasDeadVote = GetControllerAt(4);
+            m_isGood = GetControllerAt(5);
+            m_img = (GLoader)GetChildAt(2);
+            m_txtInputName = (GTextInput)GetChildAt(5);
+            m_txtCharacter = (GTextInput)GetChildAt(7);
+            m_lstState = (GList)GetChildAt(8);
         }
     }
 }

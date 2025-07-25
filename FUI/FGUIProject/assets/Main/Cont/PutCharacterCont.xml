@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="2560,1600">
-  <controller name="choosingSpecific" pages="0,,1," selected="1"/>
+  <controller name="choosingSpecific" pages="0,,1," selected="0"/>
   <displayList>
     <image id="n19_jfoi" name="n19" src="jfoi8r" fileName="assets/panel.png" xy="423,51" size="1685,239"/>
-    <text id="n8_kt9f" name="txtTitle" xy="210,72" size="2101,206" fontSize="76" color="#ffffff" align="center" vars="true" autoSize="none" text="There should be {num1=1} townsforks  {num2=1} outsiders &#xA;{num3=1} minions {num4=1} demon."/>
+    <text id="n8_kt9f" name="txtTitle" xy="210,69" size="2101,206" fontSize="76" color="#ffffff" align="center" vars="true" autoSize="none" text="There should be {num1=1} townsforks  {num2=1} outsiders &#xA;{num3=1} minions {num4=1} demon."/>
     <component id="n18_ulez" name="btnFinish" src="kt9f5n" fileName="components/ButtonNormal.xml" xy="1958,1349" size="540,93">
       <Button title="Finish" titleFontSize="41"/>
     </component>

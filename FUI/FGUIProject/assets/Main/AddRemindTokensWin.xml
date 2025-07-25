@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <component id="n0_oj1u" name="cont" src="oj1u9e" fileName="Cont/AddRemindTokensCont.xml" xy="69,54">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

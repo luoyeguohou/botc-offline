@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2560,1600">
+  <displayList>
+    <loader id="n23_plih" name="bg1" xy="0,0" size="2560,1600" url="ui://mkospyuuy7l23" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n29_plih" name="cont" src="wu429d" fileName="ShowSomethingCont.xml" xy="46,27">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

@@ -9,37 +9,15 @@ public class UIManager
     public static void Init()
     {
         UIPackage.RemoveAllPackages();
-        //string fileContent = Resources.Load<TextAsset>("UII18N/"+Cfg.language).text; 
-        //FairyGUI.Utils.XML xml = new(fileContent);
-        //UIPackage.SetStringsSource(xml);
+        string fileContent = Resources.Load<TextAsset>(Cfg.language).text;
+        FairyGUI.Utils.XML xml = new(fileContent);
+        UIPackage.SetStringsSource(xml);
         //UIConfig.defaultFont = "Font2";
         UIPackage.AddPackage("UI/Main");
         //UIConfig.buttonSound = (NAudioClip)UIPackage.GetItemAssetByURL("ui://Main/buttonEff");
         MainBinder.BindAll();
-        FGUIUtil.CreateWindow<UI_ScriptWin>("ScriptWin").Init();
+        FGUIUtil.CreateWindow<UI_NewMainWin>("NewMainWin").Init();
     }
-
-    //public static UI_ExplainPanel explainPanel;
-
-    //public static UI_ExplainPanel ShowExplainPanel()
-    //{
-    //    if (explainPanel != null) 
-    //    {
-    //        explainPanel.visible = true;
-    //        return explainPanel;
-    //    }
-
-    //    explainPanel = (UI_ExplainPanel)UIPackage.CreateObject("Main", "ExplainPanel").asCom;
-    //    explainPanel.touchable = false;
-    //    GRoot.inst.AddChild(explainPanel);
-    //    return explainPanel;
-    //}
-
-    //public static void UnshowExplainPanel() 
-    //{
-    //    if (explainPanel == null) return;
-    //    explainPanel.SetInvisibleDur(0.1f);
-    //}
 
     public static List<FairyWindow> windows = new();
 
