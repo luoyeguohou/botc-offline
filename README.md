@@ -7,10 +7,10 @@ Before this part, make sure that you already know how to play botc(Blood On The 
 
 ## 1st: pick script
 Click the pick script button and then you can pick a script to play.
-![1.1](./readmePics/1.1.png.png)
+![1.1](./readmePics/1.1.png)
 You can also create your own script by clicking the create script button and select any characters and put the script name and click confirm.
-![1.2](./readmePics/1.2.png.png)
-![1.3](./readmePics/1.3.png.png)
+![1.2](./readmePics/1.2.png)
+![1.3](./readmePics/1.3.png)
 ## 2nd: add person and put name
 
 ## 3rd: pick roles from script
